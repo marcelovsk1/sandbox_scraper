@@ -59,7 +59,7 @@ def format_location(location_str, source):
         return None
 
 
-def scrape_facebook_events(driver, url, selectors, max_scroll=50):
+def scrape_facebook_events(driver, url, selectors, max_scroll=5):
     driver.get(url)
     driver.implicitly_wait(10)
 
@@ -127,7 +127,7 @@ def get_previous_page_image_url(driver):
 
     return None
 
-def scrape_eventbrite_events(driver, url, selectors, max_pages=10):
+def scrape_eventbrite_events(driver, url, selectors, max_pages=5):
     driver.get(url)
     driver.implicitly_wait(10)
 

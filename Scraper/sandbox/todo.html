@@ -1,0 +1,38 @@
+
+# === DE-DUPLICATE EVENTS ===
+# 1. similarity test of event names --> find a library that calculates a similarity score bewteen strings
+# for example: "New Year Party" = "NY Party"
+# 2. if we have troubles with this way, we could do embeddings but that is slighty more difficult to implement
+
+# === FORMAT ELEMENTS (we have to check how is this formatted in the database) ===
+# 1. Date -> Python datetime Object
+    # if events from the same website have their date formatted the same way, then you could make a special formatting function
+    # for each website
+    # Facebook: "Fri 3, October" => function to output day, month, year =>> ({ day: 3, month: 10, year: null }) // 2024
+    # you can use those elements to create a new datetime object in python which will be use to save the date in the database in the same way as the other dates
+
+# 2. Location
+    # a. If it's stored as simple string, then we could be fine
+        # maybe we still need to do some cleaning to format location the same way (Montreal <> Montréal)
+    # b. If we need coordinates, or more information on the location, or to format it the same way
+        # I would use Google Places API which take as input an unformated dalocationte and returns a formatted place
+        # it has a cost but it's usefull (like Google Maps)
+
+# 3. Image URL
+    # => no special need but depending on the current way of saving image
+    # we would need to save the image in our own servers like the other images
+
+# make a list of duplicate events to compare
+
+# scrape secondary pages
+
+# gpt prompt for generating tags from title and description
+
+# see how to split start and end
+# go learn about Regex https://regexr.com/ -> this way you would create an expression that will extract what you want from a string
+# google places API
+
+# delete # for tags
+
+
+# could we consider that events that occur at the same place at the same time are the same event
