@@ -31,10 +31,6 @@ def format_date(date_str, source):
         return formatted_date
     else:
         return None
-    #%A: Represents the full name of the day of the week (for example, "Sunday").
-    #%B: Represents the full name of the month (for example, "March").
-    #%d: Represents the day of the month as a decimal number (for example, "03").
-    #%Y: Represents the four-digit year (for example, "2024").
 
 def format_location(location_str, source):
     if source == 'Facebook':
@@ -58,13 +54,12 @@ def format_location(location_str, source):
     else:
         return None
 
-
 def scrape_facebook_events(driver, url, selectors, max_scroll=5):
     driver.get(url)
     driver.implicitly_wait(10)
 
     all_events = []
-    unique_event_urls = set()
+    unique_event_titles = set()
 
     for _ in range(max_scroll):
         page_content = driver.page_source
@@ -77,8 +72,6 @@ def scrape_facebook_events(driver, url, selectors, max_scroll=5):
                 continue
 
             event_url = 'https://www.facebook.com' + event_link['href'] if event_link['href'].startswith('/') else event_link['href']
-            if event_url in unique_event_urls:
-                continue
 
             driver.get(event_url)
             time.sleep(1)
@@ -86,14 +79,22 @@ def scrape_facebook_events(driver, url, selectors, max_scroll=5):
             event_page_content = driver.page_source
             event_page = BeautifulSoup(event_page_content, 'html.parser')
 
+            event_title_elem = event_page.find('span', class_='x1lliihq x6ikm8r x10wlt62 x1n2onr6')
+            if event_title_elem:
+                event_title = event_title_elem.text.strip()
+                if any(calculate_similarity(event_title, existing_title) >= 90 for existing_title in unique_event_titles):
+                    continue
+            else:
+                continue  # Skip this event if title element is not found
+
             location_div = event_page.find('div', class_='x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz xt0b8zv xzsf02u x1s688f')
             location_span = event_page.find('span', class_='xt0psk2')
 
             location_text = location_div.text.strip() if location_div else (location_span.text.strip() if location_span else None)
 
             event_info = {
-                'Title': event_page.find('span', class_='x1lliihq x6ikm8r x10wlt62 x1n2onr6').text.strip(),
-                'Description': event_page.find('div', class_='xdj266r x11i5rnm xat24cr x1mh8g0r x1vvkbs').text.strip(),
+                'Title': event_title,
+                'Description': event_page.find('div', class_='xdj266r x11i5rnm xat24cr x1mh8g0r x1vvkbs').text.strip() if event_page.find('div', class_='xdj266r x11i5rnm xat24cr x1mh8g0r x1vvkbs') else None,
                 'Date': event_page.find('div', class_='x1e56ztr x1xmf6yo').text.strip() if event_page.find('div', class_='x1e56ztr x1xmf6yo') else None,
                 'Location': location_text,
                 'ImageURL': event_page.find('img', class_='xz74otr x1ey2m1c x9f619 xds687c x5yr21d x10l6tqk x17qophe x13vifvy xh8yej3')['src'] if event_page.find('img', class_='xz74otr x1ey2m1c x9f619 xds687c x5yr21d x10l6tqk x17qophe x13vifvy xh8yej3') else None,
@@ -103,14 +104,13 @@ def scrape_facebook_events(driver, url, selectors, max_scroll=5):
             }
 
             all_events.append(event_info)
-            unique_event_urls.add(event_url)
+            unique_event_titles.add(event_title)
 
             driver.back()
 
         scroll_to_bottom(driver)
 
     return all_events
-
 
 
 def get_previous_page_image_url(driver):
@@ -192,7 +192,6 @@ def scrape_eventbrite_events(driver, url, selectors, max_pages=5):
             event_info['Organizer'] = organizer.text.strip() if organizer else None
             event_info['EventUrl'] = event_link  # Adiciona o EventUrl ao dicionário
 
-
             all_events.append(event_info)
 
             driver.back()
@@ -207,14 +206,11 @@ def scrape_eventbrite_events(driver, url, selectors, max_pages=5):
 
 def find_unique_events(events):
     unique_events = []
-    seen_event_info = set()
+    seen_event_titles = set()
     for event in events:
-        formatted_date = format_date(event.get('Date', ''), event.get('Source', ''))
-        formatted_location = format_location(event.get('Location', ''), event.get('Source', ''))
-        event_info = (event['Title'], formatted_date, formatted_location)
-        if event_info not in seen_event_info:
+        if event['Title'] not in seen_event_titles:
             unique_events.append(event)
-            seen_event_info.add(event_info)
+            seen_event_titles.add(event['Title'])
     return unique_events
 
 def main():
