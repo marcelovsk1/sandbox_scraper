@@ -5,6 +5,8 @@ from bs4 import BeautifulSoup
 import time
 from fuzzywuzzy import fuzz
 from datetime import datetime
+import requests
+from geopy.geocoders import Nominatim
 
 def scroll_to_bottom(driver, max_clicks=5):
     for _ in range(max_clicks):
@@ -32,6 +34,7 @@ def format_date(date_str, source):
     else:
         return None
 
+
 def format_location(location_str, source):
     if source == 'Facebook':
         # If location contains a comma, we split into location name and address
@@ -51,8 +54,36 @@ def format_location(location_str, source):
         return {
             'Location': location_str.strip(),
         }
+    elif source == 'Google':
+        # Use Google Places API to get formatted location and additional information
+        api_key = 'AIzaSyD4K3294QGT9YUSquGZ_G82YMI856E0BzA'
+        url = f'https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input={location_str}&inputtype=textquery&fields=formatted_address,geometry&key={api_key}'
+        response = requests.get(url)
+        if response.status_code == 200:
+            data = response.json()
+            if data['status'] == 'OK' and len(data['candidates']) > 0:
+                formatted_address = data['candidates'][0]['formatted_address']
+                location = formatted_address.split(',')[0]  # Extracting the location name
+                return {
+                    'Location': location.strip(),
+                    'FormattedAddress': formatted_address,
+                    'Latitude': data['candidates'][0]['geometry']['location']['lat'],
+                    'Longitude': data['candidates'][0]['geometry']['location']['lng']
+                }
+        # If unable to fetch data from Google Places API, return None
+        return None
     else:
         return None
+
+
+def get_coordinates(location):
+    geolocator = Nominatim(user_agent="event_scraper")
+    location = geolocator.geocode(location)
+    if location:
+        return location.latitude, location.longitude
+    else:
+        return None, None
+
 
 def scrape_facebook_events(driver, url, selectors, max_scroll=5):
     driver.get(url)
@@ -92,11 +123,15 @@ def scrape_facebook_events(driver, url, selectors, max_scroll=5):
 
             location_text = location_div.text.strip() if location_div else (location_span.text.strip() if location_span else None)
 
+            latitude, longitude = get_coordinates(location_text)
+
             event_info = {
                 'Title': event_title,
                 'Description': event_page.find('div', class_='xdj266r x11i5rnm xat24cr x1mh8g0r x1vvkbs').text.strip() if event_page.find('div', class_='xdj266r x11i5rnm xat24cr x1mh8g0r x1vvkbs') else None,
                 'Date': event_page.find('div', class_='x1e56ztr x1xmf6yo').text.strip() if event_page.find('div', class_='x1e56ztr x1xmf6yo') else None,
                 'Location': location_text,
+                'Latitude': latitude,
+                'Longitude': longitude,
                 'ImageURL': event_page.find('img', class_='xz74otr x1ey2m1c x9f619 xds687c x5yr21d x10l6tqk x17qophe x13vifvy xh8yej3')['src'] if event_page.find('img', class_='xz74otr x1ey2m1c x9f619 xds687c x5yr21d x10l6tqk x17qophe x13vifvy xh8yej3') else None,
                 'Organizer': event_page.find('span', class_='xt0psk2').text.strip() if event_page.find('span', class_='xt0psk2') else None,
                 'Organizer_IMG': event_page.find('img', class_='xz74otr')['src'] if event_page.find('img', class_='xz74otr') else None,
