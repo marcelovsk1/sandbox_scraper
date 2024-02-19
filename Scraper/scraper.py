@@ -166,7 +166,10 @@ def scrape_eventbrite_events(driver, url, selectors, max_pages=5):
             for tag_element in tags_elements:
                 tag_link = tag_element.find('a')
                 if tag_link:
-                    tags.append(tag_link.text.strip())
+                    tag_text = tag_link.text.strip().replace("#", "")  # Remove o caractere "#" do início do texto
+                    tags.append(tag_text)
+
+            event_info['Tags'] = tags
 
             organizer = event_page.find('a', class_='descriptive-organizer-info__name-link') if event_page.find('a', class_='descriptive-organizer-info__name-link') else None
             image_url_organizer = event_page.find('svg', class_='eds-avatar__background eds-avatar__background--has-border')
