@@ -8,7 +8,7 @@ from datetime import datetime
 import requests
 from geopy.geocoders import Nominatim
 
-def scroll_to_bottom(driver, max_clicks=5):
+def scroll_to_bottom(driver, max_clicks=20):
     for _ in range(max_clicks):
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         time.sleep(1)
@@ -85,7 +85,7 @@ def get_coordinates(location):
         return None, None
 
 
-def scrape_facebook_events(driver, url, selectors, max_scroll=5):
+def scrape_facebook_events(driver, url, selectors, max_scroll=50):
     driver.get(url)
     driver.implicitly_wait(10)
 
@@ -192,7 +192,7 @@ def scrape_eventbrite_events(driver, url, selectors, max_pages=5):
             description = event_page.find('p', class_='summary').text.strip() if event_page.find('p', class_='summary') else None
             price = event_page.find('div', class_='conversion-bar__panel-info').text.strip() if event_page.find('div', class_='conversion-bar__panel-info') else None
             date = event_page.find('span', class_='date-info__full-datetime').text.strip() if event_page.find('span', class_='date-info__full-datetime') else None
-            location_element = event_page.find('div', class_='location-info__address')
+            location_element = event_page.find('p', class_='location-info__address-text')
             location = location_element.text.strip() if location_element else None
             ImageURL = get_previous_page_image_url(driver)
             tags_elements = event_page.find_all('li', class_='tags-item inline')
@@ -256,6 +256,7 @@ def main():
             'selectors': {
                 'event': {'tag': 'div', 'class': 'x78zum5 x1n2onr6 xh8yej3'}
             },
+            'max_scroll': 50
         },
         {
             'name': 'Eventbrite',
@@ -265,7 +266,7 @@ def main():
                     'Title': {'tag': 'h2', 'class': 'event-card__title'},
                     'Description': {'tag': 'p', 'class': 'event-card__description'},
                     'Date': {'tag': 'p', 'class': 'event-card__date'},
-                    'Location': {'tag': 'p', 'class': 'event-card__location'},
+                    'Location': {'tag': 'p', 'class': 'location-info__address-text'},
                     'Price': {'tag': 'p', 'class': 'event-card__price'},
                     'ImageURL': {'tag': 'img', 'class': 'event-card__image'},
                     'Tags': {'tag': 'ul', 'class': 'event-card__tags'},
