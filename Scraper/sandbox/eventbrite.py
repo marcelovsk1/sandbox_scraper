@@ -82,7 +82,11 @@ def get_coordinates(location):
     print(f"Unable to geocode location: {location}")
     return None, None
 
-def scrape_eventbrite_events(driver, url, selectors, max_pages=5):
+def open_google_maps(latitude, longitude):
+    google_maps_url = f"https://www.google.com/maps/search/?api=1&query={latitude},{longitude}"
+    return google_maps_url
+
+def scrape_eventbrite_events(driver, url, selectors, max_pages=30):
     driver.get(url)
     driver.implicitly_wait(10)
 
@@ -153,7 +157,7 @@ def scrape_eventbrite_events(driver, url, selectors, max_pages=5):
 
             # Adicione a URL do Google Maps para o evento
             if latitude is not None and longitude is not None:
-                map_url = f"https://maps.googleapis.com/maps/api/staticmap?center={latitude},{longitude}&zoom=13&size=400x300&maptype=roadmap&markers=color:red%7Clabel:C%7C{latitude},{longitude}&key=YOUR_API_KEY"
+                map_url = open_google_maps(latitude, longitude)
                 event_info['MapURL'] = map_url
 
             all_events.append(event_info)
@@ -185,13 +189,14 @@ def main():
                 'Organizer': {'tag': 'a', 'class': 'event-card__organizer'},
                 'Organizer_IMG': {'tag': 'svg', 'class': 'eds-avatar__background eds-avatar__background--has-border'}
             },
-            'max_pages': 20
+            'max_pages': 30
         }
     ]
 
     chrome_options = Options()
     chrome_options.add_argument("--headless")
     chrome_options.add_argument("--disable-gpu")
+    chrome_options.add_argument("--disable-dev-shm-usage")  # Disable /dev/shm usage to improve memory usage
 
     driver = webdriver.Chrome(options=chrome_options)
 
