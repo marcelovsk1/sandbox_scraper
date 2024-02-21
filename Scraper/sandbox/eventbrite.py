@@ -36,23 +36,8 @@ def format_date(date_str, source):
     else:
         return None
 
-
 def format_location(location_str, source):
-    if source == 'Facebook':
-        # If location contains a comma, we split into location name and address
-        if ',' in location_str:
-            location, address = location_str.split(',', 1)
-            return {
-                'Location': location.strip(),
-                'Address': address.strip()
-            }
-        else:
-            # If there is no comma, we assume it is just the location name
-            return {
-                'Location': location_str.strip(),
-            }
-    elif source == 'Eventbrite':
-        # Eventbrite already provides separate location and address
+    if source == 'Facebook' or source == 'Eventbrite':
         return {
             'Location': location_str.strip(),
         }
@@ -77,7 +62,6 @@ def format_location(location_str, source):
     else:
         return None
 
-
 def get_coordinates(location):
     geolocator = Nominatim(user_agent="event_scraper")
     retries = 3  # Number of retries
@@ -97,20 +81,6 @@ def get_coordinates(location):
 
     print(f"Unable to geocode location: {location}")
     return None, None
-
-def get_previous_page_image_url(driver):
-    url = 'https://www.eventbrite.com/d/canada--montreal/all-events/?page=1'
-
-    driver.get(url)
-
-    if driver.page_source:
-        soup = BeautifulSoup(driver.page_source, 'html.parser')
-        img_tag = soup.find('img', class_='event-card-image')
-
-        if img_tag:
-            return img_tag['src']
-
-    return None
 
 def scrape_eventbrite_events(driver, url, selectors, max_pages=5):
     driver.get(url)
@@ -148,7 +118,6 @@ def scrape_eventbrite_events(driver, url, selectors, max_pages=5):
             # Obtenha as coordenadas de latitude e longitude
             latitude, longitude = get_coordinates(location)
 
-            ImageURL = get_previous_page_image_url(driver)
             tags_elements = event_page.find_all('li', class_='tags-item inline')
 
             tags = []
@@ -178,10 +147,14 @@ def scrape_eventbrite_events(driver, url, selectors, max_pages=5):
             event_info['Location'] = location
             event_info['Latitude'] = latitude  # Adiciona latitude
             event_info['Longitude'] = longitude  # Adiciona longitude
-            event_info['ImageURL'] = ImageURL
             event_info['Tags'] = tags
             event_info['Organizer'] = organizer.text.strip() if organizer else None
             event_info['EventUrl'] = event_link  # Adiciona o EventUrl ao dicionário
+
+            # Adicione a URL do Google Maps para o evento
+            if latitude is not None and longitude is not None:
+                map_url = f"https://maps.googleapis.com/maps/api/staticmap?center={latitude},{longitude}&zoom=13&size=400x300&maptype=roadmap&markers=color:red%7Clabel:C%7C{latitude},{longitude}&key=YOUR_API_KEY"
+                event_info['MapURL'] = map_url
 
             all_events.append(event_info)
 
@@ -195,32 +168,22 @@ def scrape_eventbrite_events(driver, url, selectors, max_pages=5):
 
     return all_events
 
-
-def find_unique_events(events):
-    unique_events = []
-    seen_event_titles = set()
-    for event in events:
-        if event['Title'] not in seen_event_titles:
-            unique_events.append(event)
-            seen_event_titles.add(event['Title'])
-    return unique_events
-
 def main():
     sources = [
         {
             'name': 'Eventbrite',
             'url': 'https://www.eventbrite.com/d/canada--montreal/all-events/',
-                'selectors': {
-                    'event': {'tag': 'div', 'class': 'discover-search-desktop-card discover-search-desktop-card--hiddeable'},
-                    'Title': {'tag': 'h2', 'class': 'event-card__title'},
-                    'Description': {'tag': 'p', 'class': 'event-card__description'},
-                    'Date': {'tag': 'p', 'class': 'event-card__date'},
-                    'Location': {'tag': 'p', 'class': 'location-info__address-text'},
-                    'Price': {'tag': 'p', 'class': 'event-card__price'},
-                    'ImageURL': {'tag': 'img', 'class': 'event-card__image'},
-                    'Tags': {'tag': 'ul', 'class': 'event-card__tags'},
-                    'Organizer': {'tag': 'a', 'class': 'event-card__organizer'},
-                    'Organizer_IMG': {'tag': 'svg', 'class': 'eds-avatar__background eds-avatar__background--has-border'}
+            'selectors': {
+                'event': {'tag': 'div', 'class': 'discover-search-desktop-card discover-search-desktop-card--hiddeable'},
+                'Title': {'tag': 'h2', 'class': 'event-card__title'},
+                'Description': {'tag': 'p', 'class': 'event-card__description'},
+                'Date': {'tag': 'p', 'class': 'event-card__date'},
+                'Location': {'tag': 'p', 'class': 'location-info__address-text'},
+                'Price': {'tag': 'p', 'class': 'event-card__price'},
+                'ImageURL': {'tag': 'img', 'class': 'event-card__image'},
+                'Tags': {'tag': 'ul', 'class': 'event-card__tags'},
+                'Organizer': {'tag': 'a', 'class': 'event-card__organizer'},
+                'Organizer_IMG': {'tag': 'svg', 'class': 'eds-avatar__background eds-avatar__background--has-border'}
             },
             'max_pages': 20
         }
@@ -235,21 +198,16 @@ def main():
     all_events = []
     for source in sources:
         print(f"Scraping events from: {source['name']}")
-        if source['name'] == 'Facebook':
-            events = scrape_facebook_events(driver, source['url'], source['selectors'])
-        elif source['name'] == 'Eventbrite':
+        if source['name'] == 'Eventbrite':
             events = scrape_eventbrite_events(driver, source['url'], source['selectors'])
         else:
             print(f"Unsupported source: {source['name']}")
             continue
         all_events.extend(events)
 
-    # Find unique events
-    unique_events = find_unique_events(all_events)
-
-    # Save unique events to JSON file
+    # Salvar eventos únicos em um arquivo JSON
     with open('eventbrite.json', 'w') as f:
-        json.dump(unique_events, f, indent=4)
+        json.dump(all_events, f, indent=4)
 
     driver.quit()
 
