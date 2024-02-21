@@ -56,7 +56,7 @@ def format_location(location_str, source):
         }
     elif source == 'Google':
         # Use Google Places API to get formatted location and additional information
-        api_key = 'YOUR_GOOGLE_API_KEY'
+        api_key = 'AIzaSyD4K3294QGT9YUSquGZ_G82YMI856E0BzA'
         url = f'https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input={location_str}&inputtype=textquery&fields=formatted_address,geometry&key={api_key}'
         response = requests.get(url)
         if response.status_code == 200:
@@ -164,11 +164,7 @@ def main():
         }
     ]
 
-    chrome_options = Options()
-    chrome_options.add_argument("--headless")
-    chrome_options.add_argument("--disable-gpu")
-
-    driver = webdriver.Chrome(options=chrome_options)
+    driver = webdriver.Chrome()
 
     all_events = []
     for source in sources:
