@@ -7,7 +7,6 @@ from fuzzywuzzy import fuzz
 from datetime import datetime
 import requests
 from geopy.geocoders import Nominatim
-import time
 import geopy.exc
 
 def scroll_to_bottom(driver, max_clicks=5):
