@@ -42,7 +42,7 @@ def open_google_maps(latitude, longitude):
     google_maps_url = f"https://www.google.com/maps/search/?api=1&query={latitude},{longitude}"
     return google_maps_url
 
-def scrape_facebook_events(driver, url, selectors, max_scroll=5):
+def scrape_facebook_events(driver, url, selectors, max_scroll=20):
     driver.get(url)
     driver.implicitly_wait(20)
 
@@ -96,8 +96,13 @@ def scrape_facebook_events(driver, url, selectors, max_scroll=5):
         if match:
             start_time, end_time = match.groups()
         else:
-            # Se não houver correspondência, definir StartTime como None e EndTime como None
-            start_time, end_time = None, None
+            # Se não houver correspondência e a data contém "THURSDAY, FEBRUARY 22 AT 7:00 PM EST"
+            # definir StartTime e deixar EndTime como None
+            if "at" in date_text.lower():
+                start_time = re.search(r'(\d{1,2}:\d{2}\s?[AP]M)', date_text).group(1)
+                end_time = None
+            else:
+                start_time, end_time = None, None
 
         event_info = {
             'Title': event_title,
