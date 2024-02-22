@@ -7,7 +7,7 @@ from datetime import datetime
 import requests
 from geopy.geocoders import Nominatim
 
-def scroll_to_bottom(driver, max_scroll=100):
+def scroll_to_bottom(driver, max_scroll=10):
     for _ in range(max_scroll):
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         time.sleep(2)
@@ -42,7 +42,7 @@ def open_google_maps(latitude, longitude):
     google_maps_url = f"https://www.google.com/maps/search/?api=1&query={latitude},{longitude}"
     return google_maps_url
 
-def scrape_facebook_events(driver, url, selectors, max_scroll=100):
+def scrape_facebook_events(driver, url, selectors, max_scroll=30):
     driver.get(url)
     driver.implicitly_wait(20)
 
@@ -92,17 +92,18 @@ def scrape_facebook_events(driver, url, selectors, max_scroll=100):
         date_text = event_page.find('div', class_='x1e56ztr x1xmf6yo').text.strip() if event_page.find('div', class_='x1e56ztr x1xmf6yo') else None
 
         # Extrair StartTime e EndTime usando regex
-        match = re.search(r'(\d{1,2}:\d{2}\s?[AP]M)\s?–\s?(\d{1,2}:\d{2}\s?[AP]M)', date_text)
-        if match:
-            start_time, end_time = match.groups()
-        else:
-            # Se não houver correspondência e a data contém "THURSDAY, FEBRUARY 22 AT 7:00 PM EST"
-            # definir StartTime e deixar EndTime como None
-            if "at" in date_text.lower():
-                start_time = re.search(r'(\d{1,2}:\d{2}\s?[AP]M)', date_text).group(1)
-                end_time = None
+        if date_text:
+            match = re.search(r'(\d{1,2}:\d{2}\s?[AP]M)\s?–\s?(\d{1,2}:\d{2}\s?[AP]M)', date_text)
+            if match:
+                start_time, end_time = match.groups()
             else:
-                start_time, end_time = None, None
+                if "at" in date_text.lower():
+                    start_time = re.search(r'(\d{1,2}:\d{2}\s?[AP]M)', date_text).group(1)
+                    end_time = None
+                else:
+                    start_time, end_time = None, None
+        else:
+            start_time, end_time = None, None
 
         event_info = {
             'Title': event_title,
