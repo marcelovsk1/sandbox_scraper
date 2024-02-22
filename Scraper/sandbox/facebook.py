@@ -7,10 +7,10 @@ from datetime import datetime
 import requests
 from geopy.geocoders import Nominatim
 
-def scroll_to_bottom(driver, max_scroll=5):
+def scroll_to_bottom(driver, max_scroll=100):
     for _ in range(max_scroll):
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-        time.sleep(2)  # Esperar um tempo para a página carregar completamente
+        time.sleep(2)
 
 def format_date(date_str, source):
     if date_str is None:
@@ -42,7 +42,7 @@ def open_google_maps(latitude, longitude):
     google_maps_url = f"https://www.google.com/maps/search/?api=1&query={latitude},{longitude}"
     return google_maps_url
 
-def scrape_facebook_events(driver, url, selectors, max_scroll=20):
+def scrape_facebook_events(driver, url, selectors, max_scroll=100):
     driver.get(url)
     driver.implicitly_wait(20)
 
