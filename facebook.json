@@ -12,9 +12,9 @@
             "City": "Montr\u00e9al",
             "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/413973829_765954242243175_2446899296580867322_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=109&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=MMH6ht5Zr7oAX-KOeME&_nc_ht=scontent-lga3-2.xx&oh=00_AfAIOCsRYV9szKdlUzjKffyNVRsCy_OmWsr-VVCUYMJl3w&oe=65DE3581",
+        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/413973829_765954242243175_2446899296580867322_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=109&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=MMH6ht5Zr7oAX9AnRMb&_nc_ht=scontent-lga3-2.xx&oh=00_AfBP-_AD1nBkMNQYEI7_TpJHI5LeEQxXTUdUT6UTLdNhuw&oe=65DE3581",
         "Organizer": "New City Gas",
-        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/413973829_765954242243175_2446899296580867322_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=109&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=MMH6ht5Zr7oAX-KOeME&_nc_ht=scontent-lga3-2.xx&oh=00_AfAIOCsRYV9szKdlUzjKffyNVRsCy_OmWsr-VVCUYMJl3w&oe=65DE3581",
+        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/413973829_765954242243175_2446899296580867322_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=109&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=MMH6ht5Zr7oAX9AnRMb&_nc_ht=scontent-lga3-2.xx&oh=00_AfBP-_AD1nBkMNQYEI7_TpJHI5LeEQxXTUdUT6UTLdNhuw&oe=65DE3581",
         "EventUrl": "https://www.facebook.com/events/7121152071248809/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "10:00 PM",
         "EndTime": "3:00 AM"
@@ -29,12 +29,12 @@
             "Latitude": 35.0000035,
             "Longitude": 19.9999957,
             "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=35.0000035,19.9999957",
-            "City": null,
-            "CountryCode": null
+            "City": "Montreal",
+            "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/426545483_898950915572822_5394387037662830957_n.jpg?stp=dst-jpg_fb50_p240x240&_nc_cat=111&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=2iDmauFfqXcAX8YDdln&_nc_ht=scontent-lga3-2.xx&oh=00_AfB8GSxU2kW5r4iduna1bbMtca7N1DRwBytndait89WvOQ&oe=65DD4393",
+        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/426545483_898950915572822_5394387037662830957_n.jpg?stp=dst-jpg_fb50_p240x240&_nc_cat=111&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=2iDmauFfqXcAX-_bP9c&_nc_ht=scontent-lga3-2.xx&oh=00_AfAIpaORx7fvQg9TYgS9ryuLFPvIJISmwwuxL4BEC-1IZw&oe=65DD4393",
         "Organizer": "Gemantra",
-        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/426545483_898950915572822_5394387037662830957_n.jpg?stp=dst-jpg_fb50_p240x240&_nc_cat=111&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=2iDmauFfqXcAX8YDdln&_nc_ht=scontent-lga3-2.xx&oh=00_AfB8GSxU2kW5r4iduna1bbMtca7N1DRwBytndait89WvOQ&oe=65DD4393",
+        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/426545483_898950915572822_5394387037662830957_n.jpg?stp=dst-jpg_fb50_p240x240&_nc_cat=111&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=2iDmauFfqXcAX-_bP9c&_nc_ht=scontent-lga3-2.xx&oh=00_AfAIpaORx7fvQg9TYgS9ryuLFPvIJISmwwuxL4BEC-1IZw&oe=65DD4393",
         "EventUrl": "https://www.facebook.com/events/374139065254151/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "10:00 AM",
         "EndTime": "4:00 PM"
@@ -49,12 +49,12 @@
             "Latitude": null,
             "Longitude": null,
             "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": null,
-            "CountryCode": null
+            "City": "Montreal",
+            "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/428628845_380201138050656_6489368119552690763_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=108&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=Jk6r7naTkfgAX9FjO78&_nc_ht=scontent-lga3-1.xx&oh=00_AfD25QWDkAGHVVezv0V7ySWAMUvsECHIIRFBCOYIERcGbA&oe=65DCCCB6",
+        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/428628845_380201138050656_6489368119552690763_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=108&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=Jk6r7naTkfgAX8fa3hg&_nc_ht=scontent-lga3-1.xx&oh=00_AfDfqqRUE63KBr3qd68SbSeARMqNcIeB9RrmNJRelp06Og&oe=65DCCCB6",
         "Organizer": "We aRe Afro",
-        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/428628845_380201138050656_6489368119552690763_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=108&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=Jk6r7naTkfgAX9FjO78&_nc_ht=scontent-lga3-1.xx&oh=00_AfD25QWDkAGHVVezv0V7ySWAMUvsECHIIRFBCOYIERcGbA&oe=65DCCCB6",
+        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/428628845_380201138050656_6489368119552690763_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=108&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=Jk6r7naTkfgAX8fa3hg&_nc_ht=scontent-lga3-1.xx&oh=00_AfDfqqRUE63KBr3qd68SbSeARMqNcIeB9RrmNJRelp06Og&oe=65DCCCB6",
         "EventUrl": "https://www.facebook.com/events/1666696790737836/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "10:00 PM",
         "EndTime": "3:00 AM"
@@ -69,12 +69,12 @@
             "Latitude": null,
             "Longitude": null,
             "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": null,
-            "CountryCode": null
+            "City": "Montreal",
+            "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/428637572_841916637971683_4699891875857348014_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=NFZqYN0RuN8AX_06T0H&_nc_ht=scontent-lga3-1.xx&oh=00_AfA5P99lvl0JHygWWStggtIUUnoKV_X9vAEvj3Wu-JG6OQ&oe=65DDD9C7",
+        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/428637572_841916637971683_4699891875857348014_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=NFZqYN0RuN8AX8ItM8F&_nc_ht=scontent-lga3-1.xx&oh=00_AfCtcuF8VL5Z2gIWAu6duuniV8x_goT7IK2HY9ztvLnDGg&oe=65DDD9C7",
         "Organizer": "Concordia Alumni",
-        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/428637572_841916637971683_4699891875857348014_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=NFZqYN0RuN8AX_06T0H&_nc_ht=scontent-lga3-1.xx&oh=00_AfA5P99lvl0JHygWWStggtIUUnoKV_X9vAEvj3Wu-JG6OQ&oe=65DDD9C7",
+        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/428637572_841916637971683_4699891875857348014_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=NFZqYN0RuN8AX8ItM8F&_nc_ht=scontent-lga3-1.xx&oh=00_AfCtcuF8VL5Z2gIWAu6duuniV8x_goT7IK2HY9ztvLnDGg&oe=65DDD9C7",
         "EventUrl": "https://www.facebook.com/events/298251986243743/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "10:00 AM",
         "EndTime": null
@@ -89,12 +89,12 @@
             "Latitude": null,
             "Longitude": null,
             "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": null,
-            "CountryCode": null
+            "City": "Montreal",
+            "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/415040092_349724207804759_8466371807254301977_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=108&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=b8e9_C3lC7AAX-UAhpt&_nc_ht=scontent-lga3-1.xx&oh=00_AfAi39yf3kILs_FShoY8S4PdRqueUcFJcxxfENSuaedQGA&oe=65DDADA9",
+        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/415040092_349724207804759_8466371807254301977_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=108&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=b8e9_C3lC7AAX9boSZK&_nc_ht=scontent-lga3-1.xx&oh=00_AfBHecx3F3cS1t_37raHA2B3dOeWUF7OcBa2-YLxCp8A6A&oe=65DDADA9",
         "Organizer": "LightBulb Events",
-        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/415040092_349724207804759_8466371807254301977_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=108&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=b8e9_C3lC7AAX-UAhpt&_nc_ht=scontent-lga3-1.xx&oh=00_AfAi39yf3kILs_FShoY8S4PdRqueUcFJcxxfENSuaedQGA&oe=65DDADA9",
+        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/415040092_349724207804759_8466371807254301977_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=108&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=b8e9_C3lC7AAX9boSZK&_nc_ht=scontent-lga3-1.xx&oh=00_AfBHecx3F3cS1t_37raHA2B3dOeWUF7OcBa2-YLxCp8A6A&oe=65DDADA9",
         "EventUrl": "https://www.facebook.com/events/1485899615285805/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "8:00 PM",
         "EndTime": "11:00 PM"
@@ -109,12 +109,12 @@
             "Latitude": 35.0000035,
             "Longitude": 19.9999957,
             "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=35.0000035,19.9999957",
-            "City": null,
-            "CountryCode": null
+            "City": "Montreal",
+            "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/427943052_368658916119857_6194600646156486566_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=109&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=_cICLCkivtYAX_urh7D&_nc_oc=AQmElXi24Fy73w2I769p4Ie3knePhj088WLWL3BqzknlP5Xe0_AT0CpqlgFRxQXdPYY&_nc_ht=scontent-lga3-2.xx&oh=00_AfC4yXg1b8JkDu7LSmo-3U6bfAykE2QrhQyrfS9tr_Kglg&oe=65DDC185",
+        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/427943052_368658916119857_6194600646156486566_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=109&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=_cICLCkivtYAX8yTlks&_nc_oc=AQm8sQLc2ZpOsfCMdmtscLxucfpOl3BQf6RaD2zkWZ3Njqci2-bZyDQOPKbvpLSsKXA&_nc_ht=scontent-lga3-2.xx&oh=00_AfDoX8nG_ifpdGeaPE3iU4HX8zJ1htKEAdrWjBrVk1P8bA&oe=65DDC185",
         "Organizer": "Cult Of AnarchKey Productions",
-        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/427943052_368658916119857_6194600646156486566_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=109&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=_cICLCkivtYAX_urh7D&_nc_oc=AQmElXi24Fy73w2I769p4Ie3knePhj088WLWL3BqzknlP5Xe0_AT0CpqlgFRxQXdPYY&_nc_ht=scontent-lga3-2.xx&oh=00_AfC4yXg1b8JkDu7LSmo-3U6bfAykE2QrhQyrfS9tr_Kglg&oe=65DDC185",
+        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/427943052_368658916119857_6194600646156486566_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=109&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=_cICLCkivtYAX8yTlks&_nc_oc=AQm8sQLc2ZpOsfCMdmtscLxucfpOl3BQf6RaD2zkWZ3Njqci2-bZyDQOPKbvpLSsKXA&_nc_ht=scontent-lga3-2.xx&oh=00_AfDoX8nG_ifpdGeaPE3iU4HX8zJ1htKEAdrWjBrVk1P8bA&oe=65DDC185",
         "EventUrl": "https://www.facebook.com/events/3349067018721450/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "8:00 PM",
         "EndTime": null
@@ -129,35 +129,15 @@
             "Latitude": 35.0000035,
             "Longitude": 19.9999957,
             "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=35.0000035,19.9999957",
-            "City": null,
-            "CountryCode": null
+            "City": "Montreal",
+            "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/424898836_713340424219290_2830967349377041946_n.jpg?stp=dst-jpg_fb50_p160x160&_nc_cat=111&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=xRVEBYEMqGMAX-6lX2L&_nc_ht=scontent-lga3-2.xx&oh=00_AfBC9TcffOMZTFkwzs5RAk7qRUUbztVgvtVyF2RVj8ajFQ&oe=65DD1AAC",
+        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/424898836_713340424219290_2830967349377041946_n.jpg?stp=dst-jpg_fb50_p160x160&_nc_cat=111&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=xRVEBYEMqGMAX-tAu9i&_nc_ht=scontent-lga3-2.xx&oh=00_AfAsbMzfPnHot_aAag1N2-A7HdBE3CixbJzX_sXl59L6MQ&oe=65DD1AAC",
         "Organizer": "Laylit",
-        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/424898836_713340424219290_2830967349377041946_n.jpg?stp=dst-jpg_fb50_p160x160&_nc_cat=111&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=xRVEBYEMqGMAX-6lX2L&_nc_ht=scontent-lga3-2.xx&oh=00_AfBC9TcffOMZTFkwzs5RAk7qRUUbztVgvtVyF2RVj8ajFQ&oe=65DD1AAC",
+        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/424898836_713340424219290_2830967349377041946_n.jpg?stp=dst-jpg_fb50_p160x160&_nc_cat=111&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=xRVEBYEMqGMAX-tAu9i&_nc_ht=scontent-lga3-2.xx&oh=00_AfAsbMzfPnHot_aAag1N2-A7HdBE3CixbJzX_sXl59L6MQ&oe=65DD1AAC",
         "EventUrl": "https://www.facebook.com/events/400504702439918/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "10:00 PM",
         "EndTime": "3:00 AM"
-    },
-    {
-        "Title": "March\u00e9 Frog's Breath",
-        "Description": "Artisanal Market with loads of handmade things! Saturday February 24 - Sunday February 25 from 10AM to 6PM each day. Come see us at 9001 Avenue du Parc! Relax and have a snack whil\u2026 See more",
-        "Date": "FEB 24 AT 10:00 AM \u2013 FEB 25 AT 6:00 PM EST",
-        "Location": {
-            "Location": "See more",
-            "Address": null,
-            "Latitude": 35.0000035,
-            "Longitude": 19.9999957,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=35.0000035,19.9999957",
-            "City": null,
-            "CountryCode": null
-        },
-        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/414686733_889212206248269_1503346477301928034_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=106&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=oRLk1DTRg8EAX9uDLGj&_nc_ht=scontent-lga3-1.xx&oh=00_AfBFFcdfevvpm9GYO6CLxaS7Qt1Sgu42M6KrCb1xoNLVpw&oe=65DCB2F6",
-        "Organizer": "Isabelle Carozza",
-        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/414686733_889212206248269_1503346477301928034_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=106&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=oRLk1DTRg8EAX9uDLGj&_nc_ht=scontent-lga3-1.xx&oh=00_AfBFFcdfevvpm9GYO6CLxaS7Qt1Sgu42M6KrCb1xoNLVpw&oe=65DCB2F6",
-        "EventUrl": "https://www.facebook.com/events/1034030551192135/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "10:00 AM",
-        "EndTime": null
     },
     {
         "Title": "Zine Workshop: Sharpies & Poetry with Aless MC",
@@ -172,52 +152,32 @@
             "City": "London",
             "CountryCode": "gb"
         },
-        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/428609721_785801476907498_5795718255701535085_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=104&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=1Lzz_e8qN-cAX9-Gdgb&_nc_ht=scontent-lga3-2.xx&oh=00_AfD5-U1AGkq6Lm2H1vQ_Tqquyp9rVrKX51TGBt3lE36rSA&oe=65DC9E00",
+        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/428609721_785801476907498_5795718255701535085_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=104&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=1Lzz_e8qN-cAX-qbH_5&_nc_ht=scontent-lga3-2.xx&oh=00_AfBJSg0wjKmyVD6GgK-ZMHoLAAjJdtVr1L7ZQn9wXHVn1g&oe=65DC9E00",
         "Organizer": "Librairie Drawn & Quarterly",
-        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/428609721_785801476907498_5795718255701535085_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=104&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=1Lzz_e8qN-cAX9-Gdgb&_nc_ht=scontent-lga3-2.xx&oh=00_AfD5-U1AGkq6Lm2H1vQ_Tqquyp9rVrKX51TGBt3lE36rSA&oe=65DC9E00",
+        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/428609721_785801476907498_5795718255701535085_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=104&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=1Lzz_e8qN-cAX-qbH_5&_nc_ht=scontent-lga3-2.xx&oh=00_AfBJSg0wjKmyVD6GgK-ZMHoLAAjJdtVr1L7ZQn9wXHVn1g&oe=65DC9E00",
         "EventUrl": "https://www.facebook.com/events/1451997209006075/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "7:00 PM",
         "EndTime": null
     },
     {
-        "Title": "DISCIPLINE & FREEDOM: CI Master Class with Kirsten Lewis",
-        "Description": "Version fran\u00e7aise \u00e0 suivre",
-        "Date": "FEB 21 AT 9:30 AM \u2013 FEB 23 AT 12:30 PM EST",
-        "Location": {
-            "Location": "White Wall Studio Montreal, 4532 Avenue Laval, Montr\u00e9al, QC H2T, Canada",
-            "Address": "Soul Buoy",
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": null,
-            "CountryCode": null
-        },
-        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/411171739_122111559404137420_7745786575663623646_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=104&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=JLoF3KeG_YUAX-yUaeO&_nc_ht=scontent-lga3-2.xx&oh=00_AfBrdTNqARA-TGvWFXLoLCj3eIWeJU4QYBZBaCoZrkB5aQ&oe=65DDA662",
-        "Organizer": "Moment Collectives",
-        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/411171739_122111559404137420_7745786575663623646_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=104&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=JLoF3KeG_YUAX-yUaeO&_nc_ht=scontent-lga3-2.xx&oh=00_AfBrdTNqARA-TGvWFXLoLCj3eIWeJU4QYBZBaCoZrkB5aQ&oe=65DDA662",
-        "EventUrl": "https://www.facebook.com/events/390369696661906/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "9:30 AM",
-        "EndTime": null
-    },
-    {
-        "Title": "Floral Nights Presents - CAVERN\u01cd",
-        "Description": "Every month, on a special Saturday, Cavern\u01ce welcomes you to experience a truly unique escape from the outside world. For a blissful six hours, the Club transforms into a haven, whe\u2026 See more",
-        "Date": "SATURDAY, FEBRUARY 24, 2024 AT 4:00 PM \u2013 11:00 PM EST",
+        "Title": "March\u00e9 Frog's Breath",
+        "Description": "Artisanal Market with loads of handmade things! Saturday February 24 - Sunday February 25 from 10AM to 6PM each day. Come see us at 9001 Avenue du Parc! Relax and have a snack whil\u2026 See more",
+        "Date": "FEB 24 AT 10:00 AM \u2013 FEB 25 AT 6:00 PM EST",
         "Location": {
             "Location": "See more",
             "Address": null,
             "Latitude": 35.0000035,
             "Longitude": 19.9999957,
             "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=35.0000035,19.9999957",
-            "City": null,
-            "CountryCode": null
+            "City": "Montreal",
+            "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/427983106_425101069869891_2955843036307957816_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=fbvUp4YlvWkAX-hOTR5&_nc_ht=scontent-lga3-1.xx&oh=00_AfA3l6gfVMs4ffoUsASZ2WVXheyM-ix1nq8a95FuUMUUHQ&oe=65DE17F9",
-        "Organizer": "Floral Nights",
-        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/427983106_425101069869891_2955843036307957816_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=fbvUp4YlvWkAX-hOTR5&_nc_ht=scontent-lga3-1.xx&oh=00_AfA3l6gfVMs4ffoUsASZ2WVXheyM-ix1nq8a95FuUMUUHQ&oe=65DE17F9",
-        "EventUrl": "https://www.facebook.com/events/1167685527547915/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "4:00 PM",
-        "EndTime": "11:00 PM"
+        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/414686733_889212206248269_1503346477301928034_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=106&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=oRLk1DTRg8EAX8YoWjv&_nc_ht=scontent-lga3-1.xx&oh=00_AfBg5rF-PyFhlnxVqfSssOjoU4OUNAcUrUYrvUyWJKqstw&oe=65DCB2F6",
+        "Organizer": "Isabelle Carozza",
+        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/414686733_889212206248269_1503346477301928034_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=106&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=oRLk1DTRg8EAX8YoWjv&_nc_ht=scontent-lga3-1.xx&oh=00_AfBg5rF-PyFhlnxVqfSssOjoU4OUNAcUrUYrvUyWJKqstw&oe=65DCB2F6",
+        "EventUrl": "https://www.facebook.com/events/1034030551192135/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
+        "StartTime": "10:00 AM",
+        "EndTime": null
     },
     {
         "Title": "Exhibit | Hearing Palestinian Literary Voices",
@@ -229,12 +189,12 @@
             "Latitude": null,
             "Longitude": null,
             "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": null,
-            "CountryCode": null
+            "City": "Montreal",
+            "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/418727035_952865232973028_2617529421348873709_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=110&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=lHOf7tNzOh8AX_rUtTi&_nc_ht=scontent-lga3-1.xx&oh=00_AfDaFfPoeUABRhPVcKnPxPU-NYCTgVxhOL2kjaEjartqug&oe=65DE0B17",
+        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/418727035_952865232973028_2617529421348873709_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=110&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=lHOf7tNzOh8AX8QuCQh&_nc_ht=scontent-lga3-1.xx&oh=00_AfCezamaXOJxfXPpqgOvpHESJmPBVfBRF_EzZUFMMp89Kw&oe=65DE0B17",
         "Organizer": "Islamic Studies Library, McGill University",
-        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/418727035_952865232973028_2617529421348873709_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=110&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=lHOf7tNzOh8AX_rUtTi&_nc_ht=scontent-lga3-1.xx&oh=00_AfDaFfPoeUABRhPVcKnPxPU-NYCTgVxhOL2kjaEjartqug&oe=65DE0B17",
+        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/418727035_952865232973028_2617529421348873709_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=110&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=lHOf7tNzOh8AX8QuCQh&_nc_ht=scontent-lga3-1.xx&oh=00_AfCezamaXOJxfXPpqgOvpHESJmPBVfBRF_EzZUFMMp89Kw&oe=65DE0B17",
         "EventUrl": "https://www.facebook.com/events/662396335840384/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "9:00 AM",
         "EndTime": "9:00 PM"
@@ -249,15 +209,55 @@
             "Latitude": null,
             "Longitude": null,
             "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": null,
-            "CountryCode": null
+            "City": "Montreal",
+            "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/420895862_291799287222220_6381538424338241872_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=108&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=X8_-Q--3Ki4AX-3OJ7c&_nc_ht=scontent-lga3-1.xx&oh=00_AfCkuUL4uB_hk40G0RxUBpsySm-CL_RiXu3F3dT1Pcv1WA&oe=65DCAF41",
+        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/420895862_291799287222220_6381538424338241872_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=108&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=jqT0m8gBR4EAX9t_DXA&_nc_ht=scontent-lga3-1.xx&oh=00_AfDaqTXoeKmsss7qdseii5t1VhFyIg1NQqLTN4SuWGOuMA&oe=65DCAF41",
         "Organizer": "The Montr\u00e9al Pinball Arcade",
-        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/420895862_291799287222220_6381538424338241872_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=108&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=X8_-Q--3Ki4AX-3OJ7c&_nc_ht=scontent-lga3-1.xx&oh=00_AfCkuUL4uB_hk40G0RxUBpsySm-CL_RiXu3F3dT1Pcv1WA&oe=65DCAF41",
+        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/420895862_291799287222220_6381538424338241872_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=108&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=jqT0m8gBR4EAX9t_DXA&_nc_ht=scontent-lga3-1.xx&oh=00_AfDaqTXoeKmsss7qdseii5t1VhFyIg1NQqLTN4SuWGOuMA&oe=65DCAF41",
         "EventUrl": "https://www.facebook.com/events/621145646709105/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "5:00 PM",
         "EndTime": "10:00 PM"
+    },
+    {
+        "Title": "DISCIPLINE & FREEDOM: CI Master Class with Kirsten Lewis",
+        "Description": "Version fran\u00e7aise \u00e0 suivre",
+        "Date": "FEB 21 AT 9:30 AM \u2013 FEB 23 AT 12:30 PM EST",
+        "Location": {
+            "Location": "White Wall Studio Montreal, 4532 Avenue Laval, Montr\u00e9al, QC H2T, Canada",
+            "Address": "Soul Buoy",
+            "Latitude": null,
+            "Longitude": null,
+            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
+            "City": "Montreal",
+            "CountryCode": "ca"
+        },
+        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/411171739_122111559404137420_7745786575663623646_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=104&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=JLoF3KeG_YUAX-F5eWj&_nc_ht=scontent-lga3-2.xx&oh=00_AfBaXu3FOvUwqUAzID0fuRQcUsYon3ikfbayEhzo73WVmw&oe=65DDA662",
+        "Organizer": "Moment Collectives",
+        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/411171739_122111559404137420_7745786575663623646_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=104&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=JLoF3KeG_YUAX-F5eWj&_nc_ht=scontent-lga3-2.xx&oh=00_AfBaXu3FOvUwqUAzID0fuRQcUsYon3ikfbayEhzo73WVmw&oe=65DDA662",
+        "EventUrl": "https://www.facebook.com/events/390369696661906/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
+        "StartTime": "9:30 AM",
+        "EndTime": null
+    },
+    {
+        "Title": "Floral Nights Presents - CAVERN\u01cd",
+        "Description": "Every month, on a special Saturday, Cavern\u01ce welcomes you to experience a truly unique escape from the outside world. For a blissful six hours, the Club transforms into a haven, whe\u2026 See more",
+        "Date": "SATURDAY, FEBRUARY 24, 2024 AT 4:00 PM \u2013 11:00 PM EST",
+        "Location": {
+            "Location": "See more",
+            "Address": null,
+            "Latitude": 35.0000035,
+            "Longitude": 19.9999957,
+            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=35.0000035,19.9999957",
+            "City": "Montreal",
+            "CountryCode": "ca"
+        },
+        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/427983106_425101069869891_2955843036307957816_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=fbvUp4YlvWkAX9_Fz3_&_nc_ht=scontent-lga3-1.xx&oh=00_AfA9WFhonV1-nTJCflbLZcCZpKmg9gatsbkbjbb8ldFaYQ&oe=65DE17F9",
+        "Organizer": "Floral Nights",
+        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/427983106_425101069869891_2955843036307957816_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=fbvUp4YlvWkAX9_Fz3_&_nc_ht=scontent-lga3-1.xx&oh=00_AfA9WFhonV1-nTJCflbLZcCZpKmg9gatsbkbjbb8ldFaYQ&oe=65DE17F9",
+        "EventUrl": "https://www.facebook.com/events/1167685527547915/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
+        "StartTime": "4:00 PM",
+        "EndTime": "11:00 PM"
     },
     {
         "Title": "Jamboree",
@@ -269,12 +269,12 @@
             "Latitude": 35.0000035,
             "Longitude": 19.9999957,
             "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=35.0000035,19.9999957",
-            "City": null,
-            "CountryCode": null
+            "City": "Montreal",
+            "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/421484096_725252809583113_2686829062977596135_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=107&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=sAV29BRvowEAX8BV9vd&_nc_ht=scontent-lga3-2.xx&oh=00_AfDA7IqcqsTo21P3mNeZXHJ0JsMjte5hlxsE6XROJ14IAw&oe=65DD75E1",
+        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/421484096_725252809583113_2686829062977596135_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=107&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=sAV29BRvowEAX-me9wo&_nc_ht=scontent-lga3-2.xx&oh=00_AfA6WkyrBiqwpT9rMubVBENB1WCj4xY4qZzXD7dBtk4GTw&oe=65DD75E1",
         "Organizer": "Midnight Renegade",
-        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/421484096_725252809583113_2686829062977596135_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=107&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=sAV29BRvowEAX8BV9vd&_nc_ht=scontent-lga3-2.xx&oh=00_AfDA7IqcqsTo21P3mNeZXHJ0JsMjte5hlxsE6XROJ14IAw&oe=65DD75E1",
+        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/421484096_725252809583113_2686829062977596135_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=107&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=sAV29BRvowEAX-me9wo&_nc_ht=scontent-lga3-2.xx&oh=00_AfA6WkyrBiqwpT9rMubVBENB1WCj4xY4qZzXD7dBtk4GTw&oe=65DD75E1",
         "EventUrl": "https://www.facebook.com/events/3181560482138116/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "3:00 PM",
         "EndTime": "9:00 PM"
@@ -289,35 +289,15 @@
             "Latitude": null,
             "Longitude": null,
             "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": null,
-            "CountryCode": null
+            "City": "Montreal",
+            "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/426599491_384495810875003_3476187615426582329_n.jpg?stp=cp6_dst-jpg_fb50_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=WQEEzeR7Gt4AX9DdvJ0&_nc_ht=scontent-lga3-1.xx&oh=00_AfB0LJOLqYam6BfBs2aQQVVE9lpj3Q_yYgyttH04Bw_aLA&oe=65DE3C73",
+        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/426599491_384495810875003_3476187615426582329_n.jpg?stp=cp6_dst-jpg_fb50_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=WQEEzeR7Gt4AX9I8nFd&_nc_ht=scontent-lga3-1.xx&oh=00_AfBIaf56pOHCfP--fE8_sOucDUDjTCun-FzhFNbGS8eBZA&oe=65DE3C73",
         "Organizer": "Mosaica Dance Company",
-        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/426599491_384495810875003_3476187615426582329_n.jpg?stp=cp6_dst-jpg_fb50_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=WQEEzeR7Gt4AX9DdvJ0&_nc_ht=scontent-lga3-1.xx&oh=00_AfB0LJOLqYam6BfBs2aQQVVE9lpj3Q_yYgyttH04Bw_aLA&oe=65DE3C73",
+        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/426599491_384495810875003_3476187615426582329_n.jpg?stp=cp6_dst-jpg_fb50_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=WQEEzeR7Gt4AX9I8nFd&_nc_ht=scontent-lga3-1.xx&oh=00_AfBIaf56pOHCfP--fE8_sOucDUDjTCun-FzhFNbGS8eBZA&oe=65DE3C73",
         "EventUrl": "https://www.facebook.com/events/1560259808106135/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "7:00 PM",
         "EndTime": "9:00 PM"
-    },
-    {
-        "Title": "Black Absinthe, M\u00fcrtenscythe & Double Cross at TraXide",
-        "Description": "Starting off the year with BANG!!",
-        "Date": "FRIDAY, FEBRUARY 23, 2024 AT 8:30 PM EST",
-        "Location": {
-            "Location": "See more",
-            "Address": null,
-            "Latitude": 35.0000035,
-            "Longitude": 19.9999957,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=35.0000035,19.9999957",
-            "City": null,
-            "CountryCode": null
-        },
-        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/419627356_781072544047129_2724425142838412759_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=109&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=Yi7ZMU3Mz48AX-lpepm&_nc_ht=scontent-lga3-2.xx&oh=00_AfANwV-AQw1Qs7bSW3-jZr3G06Y0hkCKsZYh6QKnVFkZzg&oe=65DE697C",
-        "Organizer": "M\u00fcrtenscythe",
-        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/419627356_781072544047129_2724425142838412759_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=109&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=Yi7ZMU3Mz48AX-lpepm&_nc_ht=scontent-lga3-2.xx&oh=00_AfANwV-AQw1Qs7bSW3-jZr3G06Y0hkCKsZYh6QKnVFkZzg&oe=65DE697C",
-        "EventUrl": "https://www.facebook.com/events/2673748502776615/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "8:30 PM",
-        "EndTime": null
     },
     {
         "Title": "Echale Salsita Montreal - The Beginning!",
@@ -329,12 +309,12 @@
             "Latitude": null,
             "Longitude": null,
             "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": null,
-            "CountryCode": null
+            "City": "Montreal",
+            "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/428636732_246850088475480_5483279605205088473_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=111&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=c3RccXaMsyMAX8oANHY&_nc_ht=scontent-lga3-2.xx&oh=00_AfA4fjymU8QyeHoWk-dRyYCRBz6mkPuSyp7TwzZNXWKyQA&oe=65DE29B0",
+        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/428636732_246850088475480_5483279605205088473_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=111&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=c3RccXaMsyMAX_1xYpo&_nc_ht=scontent-lga3-2.xx&oh=00_AfA4PRsq8uPDHgCgLHbGN47LLFslibpd-4GSP2zwEtj5pg&oe=65DE29B0",
         "Organizer": "Echale Salsita Montreal",
-        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/428636732_246850088475480_5483279605205088473_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=111&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=c3RccXaMsyMAX8oANHY&_nc_ht=scontent-lga3-2.xx&oh=00_AfA4fjymU8QyeHoWk-dRyYCRBz6mkPuSyp7TwzZNXWKyQA&oe=65DE29B0",
+        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/428636732_246850088475480_5483279605205088473_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=111&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=c3RccXaMsyMAX_1xYpo&_nc_ht=scontent-lga3-2.xx&oh=00_AfA4PRsq8uPDHgCgLHbGN47LLFslibpd-4GSP2zwEtj5pg&oe=65DE29B0",
         "EventUrl": "https://www.facebook.com/events/299271466069277/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "8:00 PM",
         "EndTime": null
@@ -352,9 +332,9 @@
             "City": "Montr\u00e9al",
             "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/386274971_675373018026023_7611230093609152874_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=102&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=r1coPIsPMNQAX9xA83P&_nc_oc=AQmqBGqSE5bDLDCJ17n9YMOb-V48fbNRfHylj9e2qOu1znKh2uioq3Ou1IPHbW5gs3U&_nc_ht=scontent-lga3-1.xx&oh=00_AfC_CMp5E24Yfp9E1qHt2aV6cIEwz0dORCOVRAg0OY98Sw&oe=65DCAB5C",
+        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/386274971_675373018026023_7611230093609152874_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=102&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=r1coPIsPMNQAX8Z_Vkv&_nc_oc=AQlWTyDYE_OJvo2Nmlqhc-Fmkz2b9NasCHa1HxBrD31l1YuDJBXGFlLoILs_3DYOX94&_nc_ht=scontent-lga3-1.xx&oh=00_AfA4VIpzXO-fOUWJax6oaTSw7orcXY6Rm85ivm7sTrTHtA&oe=65DCAB5C",
         "Organizer": "WEC Tickets",
-        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/386274971_675373018026023_7611230093609152874_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=102&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=r1coPIsPMNQAX9xA83P&_nc_oc=AQmqBGqSE5bDLDCJ17n9YMOb-V48fbNRfHylj9e2qOu1znKh2uioq3Ou1IPHbW5gs3U&_nc_ht=scontent-lga3-1.xx&oh=00_AfC_CMp5E24Yfp9E1qHt2aV6cIEwz0dORCOVRAg0OY98Sw&oe=65DCAB5C",
+        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/386274971_675373018026023_7611230093609152874_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=102&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=r1coPIsPMNQAX8Z_Vkv&_nc_oc=AQlWTyDYE_OJvo2Nmlqhc-Fmkz2b9NasCHa1HxBrD31l1YuDJBXGFlLoILs_3DYOX94&_nc_ht=scontent-lga3-1.xx&oh=00_AfA4VIpzXO-fOUWJax6oaTSw7orcXY6Rm85ivm7sTrTHtA&oe=65DCAB5C",
         "EventUrl": "https://www.facebook.com/events/620180086957431/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "7:30 PM",
         "EndTime": "10:30 PM"
@@ -372,9 +352,9 @@
             "City": "Montr\u00e9al",
             "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/402101391_828740395925236_5685163823067409617_n.jpg?stp=dst-jpg_fb50_p118x118&_nc_cat=100&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=8BYw3aYmpUMAX9xhedc&_nc_ht=scontent-lga3-2.xx&oh=00_AfBfhi0oo4Kz6idUxGAg6tX96C1qVs5sSPWQF5dNumMN2A&oe=65DD70CD",
+        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/402101391_828740395925236_5685163823067409617_n.jpg?stp=dst-jpg_fb50_p118x118&_nc_cat=100&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=8BYw3aYmpUMAX8gGcE3&_nc_ht=scontent-lga3-2.xx&oh=00_AfCfudV6I3gqPRO2QjDCiox7w17oxW_SUx2A01Qegsh7-g&oe=65DD70CD",
         "Organizer": "ConFoo",
-        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/402101391_828740395925236_5685163823067409617_n.jpg?stp=dst-jpg_fb50_p118x118&_nc_cat=100&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=8BYw3aYmpUMAX9xhedc&_nc_ht=scontent-lga3-2.xx&oh=00_AfBfhi0oo4Kz6idUxGAg6tX96C1qVs5sSPWQF5dNumMN2A&oe=65DD70CD",
+        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/402101391_828740395925236_5685163823067409617_n.jpg?stp=dst-jpg_fb50_p118x118&_nc_cat=100&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=8BYw3aYmpUMAX8gGcE3&_nc_ht=scontent-lga3-2.xx&oh=00_AfCfudV6I3gqPRO2QjDCiox7w17oxW_SUx2A01Qegsh7-g&oe=65DD70CD",
         "EventUrl": "https://www.facebook.com/events/827837625677351/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "9:00 AM",
         "EndTime": null
@@ -392,9 +372,9 @@
             "City": "Montr\u00e9al",
             "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/403599164_731504205667975_304727111953160691_n.jpg?stp=dst-jpg_fb50_p240x240&_nc_cat=109&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=8NG9u3Yv1ogAX8B37Yl&_nc_ht=scontent-lga3-2.xx&oh=00_AfBgvQeiPaNjiyZlBGH0B4wgU2sJO2QUD0a149i26d3eew&oe=65DDA160",
+        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/403599164_731504205667975_304727111953160691_n.jpg?stp=dst-jpg_fb50_p240x240&_nc_cat=109&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=8NG9u3Yv1ogAX-QDfhZ&_nc_ht=scontent-lga3-2.xx&oh=00_AfBHV4EiFPScCcfSIP0fxqaLxPxZ9d9eSlYrXHvdW2V6Yw&oe=65DDA160",
         "Organizer": "Make Friends events",
-        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/403599164_731504205667975_304727111953160691_n.jpg?stp=dst-jpg_fb50_p240x240&_nc_cat=109&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=8NG9u3Yv1ogAX8B37Yl&_nc_ht=scontent-lga3-2.xx&oh=00_AfBgvQeiPaNjiyZlBGH0B4wgU2sJO2QUD0a149i26d3eew&oe=65DDA160",
+        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/403599164_731504205667975_304727111953160691_n.jpg?stp=dst-jpg_fb50_p240x240&_nc_cat=109&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=8NG9u3Yv1ogAX-QDfhZ&_nc_ht=scontent-lga3-2.xx&oh=00_AfBHV4EiFPScCcfSIP0fxqaLxPxZ9d9eSlYrXHvdW2V6Yw&oe=65DDA160",
         "EventUrl": "https://www.facebook.com/events/248424134920168/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "7:00 PM",
         "EndTime": "10:00 PM"
@@ -412,12 +392,32 @@
             "City": "Montr\u00e9al",
             "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/426935032_393904539914846_1344187095581929663_n.jpg?stp=dst-jpg_fb50_p160x160&_nc_cat=108&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=m9HEouoW3ggAX-jsrNs&_nc_oc=AQk9ojcZ9qZCUOca13Ozwy8UKnv1T1SoW3rQDcxAowtutSMv-OzGrk97wiXQrWzkwg4&_nc_ht=scontent-lga3-1.xx&oh=00_AfA23clmEqa532g5_oNACJFGzryjbowST6DzNOGL45MhRg&oe=65DC9BBD",
+        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/426935032_393904539914846_1344187095581929663_n.jpg?stp=dst-jpg_fb50_p160x160&_nc_cat=108&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=m9HEouoW3ggAX80lQLp&_nc_oc=AQm9E-s-xqlXlrsDzbuf8pT8tiO-YmusQbqBQyrbd5RYg5J_anMxYiHEMuO_1nSBpng&_nc_ht=scontent-lga3-1.xx&oh=00_AfDYShwGlkzZL0zaNypXw9fmyHtyLfsKChJdMCLPs1UKMg&oe=65DC9BBD",
         "Organizer": "LESPACEMAKER",
-        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/426935032_393904539914846_1344187095581929663_n.jpg?stp=dst-jpg_fb50_p160x160&_nc_cat=108&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=m9HEouoW3ggAX-jsrNs&_nc_oc=AQk9ojcZ9qZCUOca13Ozwy8UKnv1T1SoW3rQDcxAowtutSMv-OzGrk97wiXQrWzkwg4&_nc_ht=scontent-lga3-1.xx&oh=00_AfA23clmEqa532g5_oNACJFGzryjbowST6DzNOGL45MhRg&oe=65DC9BBD",
+        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/426935032_393904539914846_1344187095581929663_n.jpg?stp=dst-jpg_fb50_p160x160&_nc_cat=108&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=m9HEouoW3ggAX80lQLp&_nc_oc=AQm9E-s-xqlXlrsDzbuf8pT8tiO-YmusQbqBQyrbd5RYg5J_anMxYiHEMuO_1nSBpng&_nc_ht=scontent-lga3-1.xx&oh=00_AfDYShwGlkzZL0zaNypXw9fmyHtyLfsKChJdMCLPs1UKMg&oe=65DC9BBD",
         "EventUrl": "https://www.facebook.com/events/2083237122059716/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "1:00 PM",
         "EndTime": "5:00 PM"
+    },
+    {
+        "Title": "Black Absinthe, M\u00fcrtenscythe & Double Cross at TraXide",
+        "Description": "Starting off the year with BANG!!",
+        "Date": "FRIDAY, FEBRUARY 23, 2024 AT 8:30 PM EST",
+        "Location": {
+            "Location": "See more",
+            "Address": null,
+            "Latitude": 35.0000035,
+            "Longitude": 19.9999957,
+            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=35.0000035,19.9999957",
+            "City": "Montreal",
+            "CountryCode": "ca"
+        },
+        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/419627356_781072544047129_2724425142838412759_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=109&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=Yi7ZMU3Mz48AX8TfY33&_nc_ht=scontent-lga3-2.xx&oh=00_AfA4cFkCnz11c6CX2xdJOMAVwO1reXvunWfakARjWZz8Mw&oe=65DE697C",
+        "Organizer": "M\u00fcrtenscythe",
+        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/419627356_781072544047129_2724425142838412759_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=109&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=Yi7ZMU3Mz48AX8TfY33&_nc_ht=scontent-lga3-2.xx&oh=00_AfA4cFkCnz11c6CX2xdJOMAVwO1reXvunWfakARjWZz8Mw&oe=65DE697C",
+        "EventUrl": "https://www.facebook.com/events/2673748502776615/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
+        "StartTime": "8:30 PM",
+        "EndTime": null
     },
     {
         "Title": "\u2730 GAZM'S FINAL RIDE \u2730",
@@ -432,9 +432,9 @@
             "City": "Montr\u00e9al",
             "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/428043066_10227923801898004_3845464849506414761_n.jpg?stp=cp6_dst-jpg_fb50_p240x240&_nc_cat=111&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=Dg9kUfBsE5wAX8UY8Oj&_nc_oc=AQk2HO-431oADt6gjdSyooM0B5wHo5-DywuJp5jXGyhAMKIeQBKO4dif6Dx0xhuqt9U&_nc_ht=scontent-lga3-2.xx&oh=00_AfAGFWhUnv9KM4DBynLtwBUiGzLYVDcW0UJaORcfE0kobg&oe=65DCE64C",
+        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/428043066_10227923801898004_3845464849506414761_n.jpg?stp=cp6_dst-jpg_fb50_p240x240&_nc_cat=111&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=Dg9kUfBsE5wAX9qIOHr&_nc_oc=AQkQ2S7IMcuF8vH8poiK_PfQ-gwRAeY66LGth3Ve_aiJ4LwBGf4K4_k7eaS2L-gjAdo&_nc_ht=scontent-lga3-2.xx&oh=00_AfAF8E3V2c1HdyXckLZMZyOK-yYs-BMjKIFyZlDHanxXfg&oe=65DCE64C",
         "Organizer": "Clementine West",
-        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/428043066_10227923801898004_3845464849506414761_n.jpg?stp=cp6_dst-jpg_fb50_p240x240&_nc_cat=111&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=Dg9kUfBsE5wAX8UY8Oj&_nc_oc=AQk2HO-431oADt6gjdSyooM0B5wHo5-DywuJp5jXGyhAMKIeQBKO4dif6Dx0xhuqt9U&_nc_ht=scontent-lga3-2.xx&oh=00_AfAGFWhUnv9KM4DBynLtwBUiGzLYVDcW0UJaORcfE0kobg&oe=65DCE64C",
+        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/428043066_10227923801898004_3845464849506414761_n.jpg?stp=cp6_dst-jpg_fb50_p240x240&_nc_cat=111&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=Dg9kUfBsE5wAX9qIOHr&_nc_oc=AQkQ2S7IMcuF8vH8poiK_PfQ-gwRAeY66LGth3Ve_aiJ4LwBGf4K4_k7eaS2L-gjAdo&_nc_ht=scontent-lga3-2.xx&oh=00_AfAF8E3V2c1HdyXckLZMZyOK-yYs-BMjKIFyZlDHanxXfg&oe=65DCE64C",
         "EventUrl": "https://www.facebook.com/events/1322945315027926/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "7:00 PM",
         "EndTime": null
@@ -452,9 +452,9 @@
             "City": "London",
             "CountryCode": "gb"
         },
-        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/411184101_744114404409539_7418547746599927356_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=110&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=MG0k1sfOjJYAX-rY3i3&_nc_ht=scontent-lga3-1.xx&oh=00_AfBQSs8lXknM7ba_gbN5zz9uY9lBhZsNZPa7c4IHd76qkg&oe=65DC9703",
+        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/411184101_744114404409539_7418547746599927356_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=110&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=MG0k1sfOjJYAX8lPNiy&_nc_ht=scontent-lga3-1.xx&oh=00_AfAMv9jGgFoG_UjwA7fXuztV2rQsp5U5BJfmB-NsRh52Dw&oe=65DC9703",
         "Organizer": "Librairie Drawn & Quarterly",
-        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/411184101_744114404409539_7418547746599927356_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=110&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=MG0k1sfOjJYAX-rY3i3&_nc_ht=scontent-lga3-1.xx&oh=00_AfBQSs8lXknM7ba_gbN5zz9uY9lBhZsNZPa7c4IHd76qkg&oe=65DC9703",
+        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/411184101_744114404409539_7418547746599927356_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=110&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=MG0k1sfOjJYAX8lPNiy&_nc_ht=scontent-lga3-1.xx&oh=00_AfAMv9jGgFoG_UjwA7fXuztV2rQsp5U5BJfmB-NsRh52Dw&oe=65DC9703",
         "EventUrl": "https://www.facebook.com/events/1576127106535585/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "7:00 PM",
         "EndTime": null
@@ -472,9 +472,9 @@
             "City": "Brighton",
             "CountryCode": "gb"
         },
-        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/427068562_910151820569905_544949416861516959_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=108&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=J5YOXVqX2nMAX9WnGdM&_nc_ht=scontent-lga3-1.xx&oh=00_AfA_sT2pfzyOcmw7ZvWYaJpnbbWZFPbDWFNxoCG2Q_n_Zg&oe=65DCAFDE",
+        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/427068562_910151820569905_544949416861516959_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=108&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=J5YOXVqX2nMAX9SNvT2&_nc_ht=scontent-lga3-1.xx&oh=00_AfCoXlghd0UxDBAvnlKb-fjdE5pCJuQUnx55f2-pGzQ86g&oe=65DCAFDE",
         "Organizer": "Serouj Kradjian",
-        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/427068562_910151820569905_544949416861516959_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=108&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=J5YOXVqX2nMAX9WnGdM&_nc_ht=scontent-lga3-1.xx&oh=00_AfA_sT2pfzyOcmw7ZvWYaJpnbbWZFPbDWFNxoCG2Q_n_Zg&oe=65DCAFDE",
+        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/427068562_910151820569905_544949416861516959_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=108&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=J5YOXVqX2nMAX9SNvT2&_nc_ht=scontent-lga3-1.xx&oh=00_AfCoXlghd0UxDBAvnlKb-fjdE5pCJuQUnx55f2-pGzQ86g&oe=65DCAFDE",
         "EventUrl": "https://www.facebook.com/events/404302355400542/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "8:00 PM",
         "EndTime": null
@@ -489,12 +489,12 @@
             "Latitude": null,
             "Longitude": null,
             "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": null,
-            "CountryCode": null
+            "City": "Montreal",
+            "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/421644931_122125150886120768_874615257972800079_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=108&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=18qamF-Ku14AX9xBPhq&_nc_ht=scontent-lga3-1.xx&oh=00_AfCrQwxqrM3fgGVO9W3C-A51Vzvop1aIfRM-lpM_G_c_dw&oe=65DD44B0",
+        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/421644931_122125150886120768_874615257972800079_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=108&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=18qamF-Ku14AX-C2lt7&_nc_ht=scontent-lga3-1.xx&oh=00_AfCt0q7ob0c3E3zn7s1pSYRd-auPrPGtQtYJmlOSIPchlQ&oe=65DD44B0",
         "Organizer": "Geronimo's hit single",
-        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/421644931_122125150886120768_874615257972800079_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=108&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=18qamF-Ku14AX9xBPhq&_nc_ht=scontent-lga3-1.xx&oh=00_AfCrQwxqrM3fgGVO9W3C-A51Vzvop1aIfRM-lpM_G_c_dw&oe=65DD44B0",
+        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/421644931_122125150886120768_874615257972800079_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=108&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=18qamF-Ku14AX-C2lt7&_nc_ht=scontent-lga3-1.xx&oh=00_AfCt0q7ob0c3E3zn7s1pSYRd-auPrPGtQtYJmlOSIPchlQ&oe=65DD44B0",
         "EventUrl": "https://www.facebook.com/events/397639772790245/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "9:00 PM",
         "EndTime": null
@@ -509,12 +509,12 @@
             "Latitude": null,
             "Longitude": null,
             "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": null,
-            "CountryCode": null
+            "City": "Montreal",
+            "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/417534577_958682532286662_1488377538306747853_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=JxofuqIco6EAX9ye38o&_nc_ht=scontent-lga3-1.xx&oh=00_AfC4V7FO3akX99oCit5FoIxIPNUxmQTKa7n_HmdHiPvgUw&oe=65DDFF2A",
+        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/417534577_958682532286662_1488377538306747853_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=JxofuqIco6EAX-5xmOt&_nc_ht=scontent-lga3-1.xx&oh=00_AfDLM7Bb-BygqTeTlbrAro_jJRuySZ_6KalwwSQ05Su7Hg&oe=65DDFF2A",
         "Organizer": "Lost Frequencies",
-        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/417534577_958682532286662_1488377538306747853_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=JxofuqIco6EAX9ye38o&_nc_ht=scontent-lga3-1.xx&oh=00_AfC4V7FO3akX99oCit5FoIxIPNUxmQTKa7n_HmdHiPvgUw&oe=65DDFF2A",
+        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/417534577_958682532286662_1488377538306747853_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=JxofuqIco6EAX-5xmOt&_nc_ht=scontent-lga3-1.xx&oh=00_AfDLM7Bb-BygqTeTlbrAro_jJRuySZ_6KalwwSQ05Su7Hg&oe=65DDFF2A",
         "EventUrl": "https://www.facebook.com/events/7151442794909942/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "7:00 PM",
         "EndTime": null
@@ -532,9 +532,9 @@
             "City": "Montr\u00e9al",
             "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/428645517_414427104415348_7885617272635015601_n.jpg?stp=cp6_dst-jpg_fb50_s851x315&_nc_cat=109&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=5hzDhPHqpdYAX-8xEzD&_nc_ht=scontent-lga3-2.xx&oh=00_AfA24sFNKixuKPvCWiq4eKfNFRfe6Hk76qQM7j0DotxceQ&oe=65DCC06A",
+        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/428645517_414427104415348_7885617272635015601_n.jpg?stp=cp6_dst-jpg_fb50_s851x315&_nc_cat=109&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=5hzDhPHqpdYAX9abKLP&_nc_ht=scontent-lga3-2.xx&oh=00_AfBd84-R261URcsDPhjSXoA3fc1IAY2G4PR8Z7mp8natKg&oe=65DCC06A",
         "Organizer": "MERTW",
-        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/428645517_414427104415348_7885617272635015601_n.jpg?stp=cp6_dst-jpg_fb50_s851x315&_nc_cat=109&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=5hzDhPHqpdYAX-8xEzD&_nc_ht=scontent-lga3-2.xx&oh=00_AfA24sFNKixuKPvCWiq4eKfNFRfe6Hk76qQM7j0DotxceQ&oe=65DCC06A",
+        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/428645517_414427104415348_7885617272635015601_n.jpg?stp=cp6_dst-jpg_fb50_s851x315&_nc_cat=109&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=5hzDhPHqpdYAX9abKLP&_nc_ht=scontent-lga3-2.xx&oh=00_AfBd84-R261URcsDPhjSXoA3fc1IAY2G4PR8Z7mp8natKg&oe=65DCC06A",
         "EventUrl": "https://www.facebook.com/events/419815160716897/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "4:00 PM",
         "EndTime": null
@@ -552,9 +552,9 @@
             "City": "Montr\u00e9al",
             "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/380280050_1059149545527883_490545272052780378_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=109&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=Z0URHvwdGacAX9t4Qli&_nc_ht=scontent-lga3-2.xx&oh=00_AfDFrzyRv4CVTeUNZ3z4vcMzJsoKc2dec8am0HW_URya_g&oe=65DCDAF4",
+        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/380280050_1059149545527883_490545272052780378_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=109&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=Z0URHvwdGacAX9X4E5f&_nc_ht=scontent-lga3-2.xx&oh=00_AfCuPrSA-BiHEUJG77BPaAuIfaUg5eHjn-odLpxEiSVGUQ&oe=65DCDAF4",
         "Organizer": "McGill Debating Union",
-        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/380280050_1059149545527883_490545272052780378_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=109&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=Z0URHvwdGacAX9t4Qli&_nc_ht=scontent-lga3-2.xx&oh=00_AfDFrzyRv4CVTeUNZ3z4vcMzJsoKc2dec8am0HW_URya_g&oe=65DCDAF4",
+        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/380280050_1059149545527883_490545272052780378_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=109&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=Z0URHvwdGacAX9X4E5f&_nc_ht=scontent-lga3-2.xx&oh=00_AfCuPrSA-BiHEUJG77BPaAuIfaUg5eHjn-odLpxEiSVGUQ&oe=65DCDAF4",
         "EventUrl": "https://www.facebook.com/events/305324165450003/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "3:00 PM",
         "EndTime": null
@@ -572,9 +572,9 @@
             "City": "Atlanta",
             "CountryCode": "us"
         },
-        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/426852031_276041115509675_6533008310346476558_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=7RJBsQFeDQcAX8rhxP1&_nc_ht=scontent-lga3-1.xx&oh=00_AfBwJLD0z0h-EcennUX_b7TO4rEQxA8gTRIaHrA7J3PObQ&oe=65DC87A8",
+        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/426852031_276041115509675_6533008310346476558_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=7RJBsQFeDQcAX8iaVa9&_nc_ht=scontent-lga3-1.xx&oh=00_AfAkYjZRc19WZmThuOotmO9emG9EZgT_MjJgaqPRh5TvYw&oe=65DE81E8",
         "Organizer": "Espace Neshama",
-        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/426852031_276041115509675_6533008310346476558_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=7RJBsQFeDQcAX8rhxP1&_nc_ht=scontent-lga3-1.xx&oh=00_AfBwJLD0z0h-EcennUX_b7TO4rEQxA8gTRIaHrA7J3PObQ&oe=65DC87A8",
+        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/426852031_276041115509675_6533008310346476558_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=7RJBsQFeDQcAX8iaVa9&_nc_ht=scontent-lga3-1.xx&oh=00_AfAkYjZRc19WZmThuOotmO9emG9EZgT_MjJgaqPRh5TvYw&oe=65DE81E8",
         "EventUrl": "https://www.facebook.com/events/785760520047344/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "1:00 PM",
         "EndTime": "4:30 PM"
@@ -592,9 +592,9 @@
             "City": "Montr\u00e9al",
             "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/425834750_366868716218260_3219374418756085296_n.jpg?stp=dst-jpg_fb50_p118x118&_nc_cat=102&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=gqNXI5S-hHEAX8-TmDk&_nc_ht=scontent-lga3-1.xx&oh=00_AfDPDD8o2bJ-1-qKQNhVoKrS4QIesEof6tiN2RQWNb2BAA&oe=65DD6D04",
+        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/425834750_366868716218260_3219374418756085296_n.jpg?stp=dst-jpg_fb50_p118x118&_nc_cat=102&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=gqNXI5S-hHEAX9DKYFS&_nc_ht=scontent-lga3-1.xx&oh=00_AfCeBc2a_4-TBKoZ4TTf-Q_Pf5WTQVLEBOvgn5demc0VJw&oe=65DD6D04",
         "Organizer": "Prohibition Agency",
-        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/425834750_366868716218260_3219374418756085296_n.jpg?stp=dst-jpg_fb50_p118x118&_nc_cat=102&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=gqNXI5S-hHEAX8-TmDk&_nc_ht=scontent-lga3-1.xx&oh=00_AfDPDD8o2bJ-1-qKQNhVoKrS4QIesEof6tiN2RQWNb2BAA&oe=65DD6D04",
+        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/425834750_366868716218260_3219374418756085296_n.jpg?stp=dst-jpg_fb50_p118x118&_nc_cat=102&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=gqNXI5S-hHEAX9DKYFS&_nc_ht=scontent-lga3-1.xx&oh=00_AfCeBc2a_4-TBKoZ4TTf-Q_Pf5WTQVLEBOvgn5demc0VJw&oe=65DD6D04",
         "EventUrl": "https://www.facebook.com/events/377999794972009/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "10:00 PM",
         "EndTime": "7:00 AM"
@@ -609,12 +609,12 @@
             "Latitude": 35.0000035,
             "Longitude": 19.9999957,
             "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=35.0000035,19.9999957",
-            "City": null,
-            "CountryCode": null
+            "City": "Montreal",
+            "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/420662437_775250257956069_6896315912336860899_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=109&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=6iHmiNHQr4wAX_pNRwH&_nc_ht=scontent-lga3-2.xx&oh=00_AfCuMpBSFY0CKOC3oFhzeNBWk8610Um5f5oRuVfv8VKUIg&oe=65DD8A1A",
+        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/420662437_775250257956069_6896315912336860899_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=109&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=6iHmiNHQr4wAX9ZLoFw&_nc_ht=scontent-lga3-2.xx&oh=00_AfDbrAe4hm0FsYl8edR-Ygg2lB_5btuMQdJZBzO91dj-6Q&oe=65DD8A1A",
         "Organizer": "The Wheel Club",
-        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/420662437_775250257956069_6896315912336860899_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=109&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=6iHmiNHQr4wAX_pNRwH&_nc_ht=scontent-lga3-2.xx&oh=00_AfCuMpBSFY0CKOC3oFhzeNBWk8610Um5f5oRuVfv8VKUIg&oe=65DD8A1A",
+        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/420662437_775250257956069_6896315912336860899_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=109&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=6iHmiNHQr4wAX9ZLoFw&_nc_ht=scontent-lga3-2.xx&oh=00_AfDbrAe4hm0FsYl8edR-Ygg2lB_5btuMQdJZBzO91dj-6Q&oe=65DD8A1A",
         "EventUrl": "https://www.facebook.com/events/699373168932160/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "8:00 PM",
         "EndTime": null
@@ -629,35 +629,15 @@
             "Latitude": null,
             "Longitude": null,
             "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": null,
-            "CountryCode": null
+            "City": "Montreal",
+            "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/416759748_872760944851928_799886691602272974_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=103&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=-rzEk425wjMAX-PYnLd&_nc_ht=scontent-lga3-1.xx&oh=00_AfAPqme94zOBFEfofWcEz9t5NU9YBs6kliKNwTAxliW8Xg&oe=65DD8A31",
+        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/416759748_872760944851928_799886691602272974_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=103&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=-rzEk425wjMAX_8k2qA&_nc_ht=scontent-lga3-1.xx&oh=00_AfANYJgVbH6W8Kud-RzHkVDXu2M0cP8thnEwwA9U07yW6w&oe=65DD8A31",
         "Organizer": "MFC Records",
-        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/416759748_872760944851928_799886691602272974_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=103&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=-rzEk425wjMAX-PYnLd&_nc_ht=scontent-lga3-1.xx&oh=00_AfAPqme94zOBFEfofWcEz9t5NU9YBs6kliKNwTAxliW8Xg&oe=65DD8A31",
+        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/416759748_872760944851928_799886691602272974_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=103&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=-rzEk425wjMAX_8k2qA&_nc_ht=scontent-lga3-1.xx&oh=00_AfANYJgVbH6W8Kud-RzHkVDXu2M0cP8thnEwwA9U07yW6w&oe=65DD8A31",
         "EventUrl": "https://www.facebook.com/events/337121759210833/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "11:00 PM",
         "EndTime": "6:00 AM"
-    },
-    {
-        "Title": "TSI Eclipse Fair and Viewing Party",
-        "Description": "On April 8th, Montreal will experience a total solar eclipse for the first time in over 90 years. Join the Trottier Space Institute and the Department of Physics on the McGill camp\u2026 See more",
-        "Date": "MONDAY, APRIL 8, 2024 AT 1:00 PM EDT",
-        "Location": {
-            "Location": "McGill University",
-            "Address": "McGill University, Avenue des Pins Ouest, Ville-Marie, Montr\u00e9al, Agglom\u00e9ration de Montr\u00e9al, Montr\u00e9al (r\u00e9gion administrative), Qu\u00e9bec, H2W 1S4, Canada",
-            "Latitude": 45.50688565,
-            "Longitude": -73.57908460423829,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=45.50688565,-73.57908460423829",
-            "City": "Montr\u00e9al",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/427975782_814143584043746_7569590914607139823_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=108&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=CPUElq3LfJgAX-Me_MO&_nc_ht=scontent-lga3-1.xx&oh=00_AfCBvnlwx6iORQTnMwrSCQLfEBnOmSTWdjiIMMUMgFfxqg&oe=65DCDDEB",
-        "Organizer": "Trottier Space Institute at McGill",
-        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/427975782_814143584043746_7569590914607139823_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=108&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=CPUElq3LfJgAX-Me_MO&_nc_ht=scontent-lga3-1.xx&oh=00_AfCBvnlwx6iORQTnMwrSCQLfEBnOmSTWdjiIMMUMgFfxqg&oe=65DCDDEB",
-        "EventUrl": "https://www.facebook.com/events/914228816908014/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "1:00 PM",
-        "EndTime": null
     },
     {
         "Title": "{ Amoris - 30 to 50 years old }",
@@ -672,9 +652,9 @@
             "City": "Atlanta",
             "CountryCode": "us"
         },
-        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/427919475_275852505528536_4939545540613607508_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=103&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=rlyMWfIeOeQAX-zhrGa&_nc_ht=scontent-lga3-1.xx&oh=00_AfBk-j3q5bZF2sB7Dci4mnd3TcwfNc7mwpNj4GZOVCWUKA&oe=65DCE729",
+        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/427919475_275852505528536_4939545540613607508_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=103&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=rlyMWfIeOeQAX_5jM2i&_nc_ht=scontent-lga3-1.xx&oh=00_AfBwo3sLyLMV-orWNMHaFkeZ_SrxArh_aW8xEaqljDULRw&oe=65DCE729",
         "Organizer": "Espace Neshama",
-        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/427919475_275852505528536_4939545540613607508_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=103&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=rlyMWfIeOeQAX-zhrGa&_nc_ht=scontent-lga3-1.xx&oh=00_AfBk-j3q5bZF2sB7Dci4mnd3TcwfNc7mwpNj4GZOVCWUKA&oe=65DCE729",
+        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/427919475_275852505528536_4939545540613607508_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=103&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=rlyMWfIeOeQAX_5jM2i&_nc_ht=scontent-lga3-1.xx&oh=00_AfBwo3sLyLMV-orWNMHaFkeZ_SrxArh_aW8xEaqljDULRw&oe=65DCE729",
         "EventUrl": "https://www.facebook.com/events/2062112997489086/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "1:00 PM",
         "EndTime": "4:30 PM"
@@ -689,14 +669,34 @@
             "Latitude": null,
             "Longitude": null,
             "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": null,
-            "CountryCode": null
+            "City": "Montreal",
+            "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/415497854_1042204413695924_7468754199897796344_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=103&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=rqzW2ubKgcAAX8YhWxb&_nc_ht=scontent-lga3-1.xx&oh=00_AfA8eGFLQgL49YkSNYfDZVfnSCfxeL2UtCCAVnVodNCTfg&oe=65DD46E5",
+        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/415497854_1042204413695924_7468754199897796344_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=103&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=rqzW2ubKgcAAX_TtXPC&_nc_ht=scontent-lga3-1.xx&oh=00_AfC9jZcOkIo5rWwwKTzDeIZJMRYepVyzvu5m5tYoL4y-HQ&oe=65DD46E5",
         "Organizer": "McGill Department of Art History & Communication Studies",
-        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/415497854_1042204413695924_7468754199897796344_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=103&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=rqzW2ubKgcAAX8YhWxb&_nc_ht=scontent-lga3-1.xx&oh=00_AfA8eGFLQgL49YkSNYfDZVfnSCfxeL2UtCCAVnVodNCTfg&oe=65DD46E5",
+        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/415497854_1042204413695924_7468754199897796344_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=103&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=rqzW2ubKgcAAX_TtXPC&_nc_ht=scontent-lga3-1.xx&oh=00_AfC9jZcOkIo5rWwwKTzDeIZJMRYepVyzvu5m5tYoL4y-HQ&oe=65DD46E5",
         "EventUrl": "https://www.facebook.com/events/694646972803768/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "4:30 PM",
+        "EndTime": null
+    },
+    {
+        "Title": "TSI Eclipse Fair and Viewing Party",
+        "Description": "On April 8th, Montreal will experience a total solar eclipse for the first time in over 90 years. Join the Trottier Space Institute and the Department of Physics on the McGill camp\u2026 See more",
+        "Date": "MONDAY, APRIL 8, 2024 AT 1:00 PM EDT",
+        "Location": {
+            "Location": "McGill University",
+            "Address": "McGill University, Avenue des Pins Ouest, Ville-Marie, Montr\u00e9al, Agglom\u00e9ration de Montr\u00e9al, Montr\u00e9al (r\u00e9gion administrative), Qu\u00e9bec, H2W 1S4, Canada",
+            "Latitude": 45.50688565,
+            "Longitude": -73.57908460423829,
+            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=45.50688565,-73.57908460423829",
+            "City": "Montr\u00e9al",
+            "CountryCode": "ca"
+        },
+        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/427975782_814143584043746_7569590914607139823_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=108&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=CPUElq3LfJgAX-K8Fep&_nc_ht=scontent-lga3-1.xx&oh=00_AfC1BCsxzAu7Wwt1wPiLvKG64_rQAaI7Gs7Lx-Xo16wGYA&oe=65DCDDEB",
+        "Organizer": "Trottier Space Institute at McGill",
+        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/427975782_814143584043746_7569590914607139823_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=108&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=CPUElq3LfJgAX-K8Fep&_nc_ht=scontent-lga3-1.xx&oh=00_AfC1BCsxzAu7Wwt1wPiLvKG64_rQAaI7Gs7Lx-Xo16wGYA&oe=65DCDDEB",
+        "EventUrl": "https://www.facebook.com/events/914228816908014/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
+        "StartTime": "1:00 PM",
         "EndTime": null
     },
     {
@@ -712,9 +712,9 @@
             "City": "St. John's",
             "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/427816597_807080351467866_1605701422513380416_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=107&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=_cfZt7h1NUAAX-E4JD5&_nc_ht=scontent-lga3-2.xx&oh=00_AfBDqw3fFAS7U9x8LQLGGA26UYftPbv1HfLJfzbYj0ve4g&oe=65DD23F9",
+        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/427816597_807080351467866_1605701422513380416_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=107&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=_cfZt7h1NUAAX9OSwK9&_nc_ht=scontent-lga3-2.xx&oh=00_AfBriEKHVJW8v57yae3M8ry5cdlBm0DlvStgyVSQzcNOXg&oe=65DD23F9",
         "Organizer": "evenko",
-        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/427816597_807080351467866_1605701422513380416_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=107&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=_cfZt7h1NUAAX-E4JD5&_nc_ht=scontent-lga3-2.xx&oh=00_AfBDqw3fFAS7U9x8LQLGGA26UYftPbv1HfLJfzbYj0ve4g&oe=65DD23F9",
+        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/427816597_807080351467866_1605701422513380416_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=107&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=_cfZt7h1NUAAX9OSwK9&_nc_ht=scontent-lga3-2.xx&oh=00_AfBriEKHVJW8v57yae3M8ry5cdlBm0DlvStgyVSQzcNOXg&oe=65DD23F9",
         "EventUrl": "https://www.facebook.com/events/1692725644549620/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "8:00 PM",
         "EndTime": null
@@ -729,12 +729,12 @@
             "Latitude": null,
             "Longitude": null,
             "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": null,
-            "CountryCode": null
+            "City": "Montreal",
+            "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/362219453_765480622245154_722153192508945371_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=111&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=fugMcya0UPkAX_0JMis&_nc_ht=scontent-lga3-2.xx&oh=00_AfCI035KX0v8xyG8r7cckn5k1x0V8fLPOTpkVKs4i5ugAA&oe=65DD09AF",
+        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/362219453_765480622245154_722153192508945371_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=111&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=fugMcya0UPkAX8VW4Nz&_nc_ht=scontent-lga3-2.xx&oh=00_AfC28WwgpP3VG0_NoGNB6tXTSieyN1wyxPpDNfjulZMFjw&oe=65DD09AF",
         "Organizer": "LIVELOVEDANCE.ca Fitness & Events",
-        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/362219453_765480622245154_722153192508945371_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=111&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=fugMcya0UPkAX_0JMis&_nc_ht=scontent-lga3-2.xx&oh=00_AfCI035KX0v8xyG8r7cckn5k1x0V8fLPOTpkVKs4i5ugAA&oe=65DD09AF",
+        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/362219453_765480622245154_722153192508945371_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=111&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=fugMcya0UPkAX8VW4Nz&_nc_ht=scontent-lga3-2.xx&oh=00_AfC28WwgpP3VG0_NoGNB6tXTSieyN1wyxPpDNfjulZMFjw&oe=65DD09AF",
         "EventUrl": "https://www.facebook.com/events/297921606134632/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "4:00 PM",
         "EndTime": null
@@ -752,9 +752,9 @@
             "City": "Montr\u00e9al",
             "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/422871487_800648872103906_4036780719038378028_n.jpg?stp=cp6_dst-jpg_fb50_p240x240&_nc_cat=110&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=Gmvlr4NgixkAX94m-gd&_nc_ht=scontent-lga3-1.xx&oh=00_AfATW543VIKxkn7rzTbICj14euDhyy4DKdjdiDpd8QhsPg&oe=65DD1CB8",
+        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/422871487_800648872103906_4036780719038378028_n.jpg?stp=cp6_dst-jpg_fb50_p240x240&_nc_cat=110&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=Gmvlr4NgixkAX-RE0pQ&_nc_ht=scontent-lga3-1.xx&oh=00_AfDUDam2iVZqPHNqKg9fCeWbP0BiNHf1xCyO3TlQ4L6wow&oe=65DD1CB8",
         "Organizer": "Montreal Art Center & Museum",
-        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/422871487_800648872103906_4036780719038378028_n.jpg?stp=cp6_dst-jpg_fb50_p240x240&_nc_cat=110&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=Gmvlr4NgixkAX94m-gd&_nc_ht=scontent-lga3-1.xx&oh=00_AfATW543VIKxkn7rzTbICj14euDhyy4DKdjdiDpd8QhsPg&oe=65DD1CB8",
+        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/422871487_800648872103906_4036780719038378028_n.jpg?stp=cp6_dst-jpg_fb50_p240x240&_nc_cat=110&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=Gmvlr4NgixkAX-RE0pQ&_nc_ht=scontent-lga3-1.xx&oh=00_AfDUDam2iVZqPHNqKg9fCeWbP0BiNHf1xCyO3TlQ4L6wow&oe=65DD1CB8",
         "EventUrl": "https://www.facebook.com/events/1239845116971926/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "6:30 PM",
         "EndTime": "9:00 PM"
@@ -769,12 +769,12 @@
             "Latitude": null,
             "Longitude": null,
             "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": null,
-            "CountryCode": null
+            "City": "Montreal",
+            "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/425774050_1482400612472853_3267403473627435101_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=105&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=Fe4WmYqPFlEAX9swxPj&_nc_ht=scontent-lga3-2.xx&oh=00_AfAQAP2CCR8-teRdLm0ZvyMUPFLhYevk_hiUVw6Ed7tNlA&oe=65DE6C6B",
+        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/425774050_1482400612472853_3267403473627435101_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=105&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=Fe4WmYqPFlEAX9PlF0a&_nc_ht=scontent-lga3-2.xx&oh=00_AfClOn_w3gGftbimV5tOqWKQRRBzHOjSz1IRPNJpkCDuHg&oe=65DE6C6B",
         "Organizer": "Acad\u00e9mie de Karat\u00e9",
-        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/425774050_1482400612472853_3267403473627435101_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=105&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=Fe4WmYqPFlEAX9swxPj&_nc_ht=scontent-lga3-2.xx&oh=00_AfAQAP2CCR8-teRdLm0ZvyMUPFLhYevk_hiUVw6Ed7tNlA&oe=65DE6C6B",
+        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/425774050_1482400612472853_3267403473627435101_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=105&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=Fe4WmYqPFlEAX9PlF0a&_nc_ht=scontent-lga3-2.xx&oh=00_AfClOn_w3gGftbimV5tOqWKQRRBzHOjSz1IRPNJpkCDuHg&oe=65DE6C6B",
         "EventUrl": "https://www.facebook.com/events/383437677613259/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "5:00 PM",
         "EndTime": null
@@ -792,9 +792,9 @@
             "City": "Greenville",
             "CountryCode": "us"
         },
-        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/422852478_779159010898527_2431023591893112155_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=102&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=r81VUppIZigAX_hOGtS&_nc_ht=scontent-lga3-1.xx&oh=00_AfCFJ9AMJyNTJciLIn5kW13fynG8pOGBlvq-2OPHPEs1-w&oe=65DDDF43",
+        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/422852478_779159010898527_2431023591893112155_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=102&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=r81VUppIZigAX9fLsKb&_nc_ht=scontent-lga3-1.xx&oh=00_AfCzFdEXq6YTISgnAjw8nLovc228fJHoax8J7gywHqxo6w&oe=65DDDF43",
         "Organizer": "The Wheel Club",
-        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/422852478_779159010898527_2431023591893112155_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=102&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=r81VUppIZigAX_hOGtS&_nc_ht=scontent-lga3-1.xx&oh=00_AfCFJ9AMJyNTJciLIn5kW13fynG8pOGBlvq-2OPHPEs1-w&oe=65DDDF43",
+        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/422852478_779159010898527_2431023591893112155_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=102&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=r81VUppIZigAX9fLsKb&_nc_ht=scontent-lga3-1.xx&oh=00_AfCzFdEXq6YTISgnAjw8nLovc228fJHoax8J7gywHqxo6w&oe=65DDDF43",
         "EventUrl": "https://www.facebook.com/events/913238406825202/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "7:30 PM",
         "EndTime": null
@@ -809,12 +809,12 @@
             "Latitude": null,
             "Longitude": null,
             "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": null,
-            "CountryCode": null
+            "City": "Montreal",
+            "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/415067798_749014923925185_807856225203299829_n.jpg?stp=dst-jpg_fb50_p240x240&_nc_cat=102&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=jg1b3nqy9oAAX-yn8Jv&_nc_ht=scontent-lga3-1.xx&oh=00_AfBHbd9qiN7hhLyOrFIEiX30S8JbEkbvPH3tVz9qIHAJKQ&oe=65DE6A43",
+        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/415067798_749014923925185_807856225203299829_n.jpg?stp=dst-jpg_fb50_p240x240&_nc_cat=102&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=jg1b3nqy9oAAX9d5dQC&_nc_ht=scontent-lga3-1.xx&oh=00_AfAHrNq1AywdCY5FbnQIRQh3s_Ep9NZDXTBegA3hkCieLA&oe=65DE6A43",
         "Organizer": "Miniature Enthusiasts of Montreal",
-        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/415067798_749014923925185_807856225203299829_n.jpg?stp=dst-jpg_fb50_p240x240&_nc_cat=102&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=jg1b3nqy9oAAX-yn8Jv&_nc_ht=scontent-lga3-1.xx&oh=00_AfBHbd9qiN7hhLyOrFIEiX30S8JbEkbvPH3tVz9qIHAJKQ&oe=65DE6A43",
+        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/415067798_749014923925185_807856225203299829_n.jpg?stp=dst-jpg_fb50_p240x240&_nc_cat=102&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=jg1b3nqy9oAAX9d5dQC&_nc_ht=scontent-lga3-1.xx&oh=00_AfAHrNq1AywdCY5FbnQIRQh3s_Ep9NZDXTBegA3hkCieLA&oe=65DE6A43",
         "EventUrl": "https://www.facebook.com/events/670950908454395/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "10:00 AM",
         "EndTime": null
@@ -829,12 +829,12 @@
             "Latitude": null,
             "Longitude": null,
             "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": null,
-            "CountryCode": null
+            "City": "Montreal",
+            "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/427624732_886701916579884_2932505894224410222_n.jpg?stp=dst-jpg_fb50_p240x240&_nc_cat=101&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=lPoVQswN-g8AX9Audrn&_nc_ht=scontent-lga3-2.xx&oh=00_AfCFP9ar2cIV9a89yFXQKK6U6oDMquyCDAOBC4QtyoD5Xg&oe=65DE1B8E",
+        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/427624732_886701916579884_2932505894224410222_n.jpg?stp=dst-jpg_fb50_p240x240&_nc_cat=101&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=lPoVQswN-g8AX8S6By9&_nc_ht=scontent-lga3-2.xx&oh=00_AfDWKmJzQRY--W5cs_dn1EkTcOuUJC5iLEnZV3Vg_Nbahg&oe=65DE1B8E",
         "Organizer": "OK L\u00c0",
-        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/427624732_886701916579884_2932505894224410222_n.jpg?stp=dst-jpg_fb50_p240x240&_nc_cat=101&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=lPoVQswN-g8AX9Audrn&_nc_ht=scontent-lga3-2.xx&oh=00_AfCFP9ar2cIV9a89yFXQKK6U6oDMquyCDAOBC4QtyoD5Xg&oe=65DE1B8E",
+        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/427624732_886701916579884_2932505894224410222_n.jpg?stp=dst-jpg_fb50_p240x240&_nc_cat=101&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=lPoVQswN-g8AX8S6By9&_nc_ht=scontent-lga3-2.xx&oh=00_AfDWKmJzQRY--W5cs_dn1EkTcOuUJC5iLEnZV3Vg_Nbahg&oe=65DE1B8E",
         "EventUrl": "https://www.facebook.com/events/1768078497047514/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "6:00 PM",
         "EndTime": null
@@ -852,9 +852,9 @@
             "City": "Greenville",
             "CountryCode": "us"
         },
-        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/424576226_779894167491678_2539574909335746670_n.jpg?stp=dst-jpg_fb50_p173x172&_nc_cat=104&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=2eIyD_wgd0wAX8404bN&_nc_ht=scontent-lga3-2.xx&oh=00_AfCZ9nIucmYLwcnM6p2_6GKkyeUxwqSsy-kX3k59d_c56w&oe=65DCD3EA",
+        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/424576226_779894167491678_2539574909335746670_n.jpg?stp=dst-jpg_fb50_p173x172&_nc_cat=104&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=2eIyD_wgd0wAX9CzmYS&_nc_ht=scontent-lga3-2.xx&oh=00_AfBPFLm6XuMDYfFVwuwYjgsVGg8mR5NuunUWTpUzHr2X2Q&oe=65DCD3EA",
         "Organizer": "The Wheel Club",
-        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/424576226_779894167491678_2539574909335746670_n.jpg?stp=dst-jpg_fb50_p173x172&_nc_cat=104&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=2eIyD_wgd0wAX8404bN&_nc_ht=scontent-lga3-2.xx&oh=00_AfCZ9nIucmYLwcnM6p2_6GKkyeUxwqSsy-kX3k59d_c56w&oe=65DCD3EA",
+        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/424576226_779894167491678_2539574909335746670_n.jpg?stp=dst-jpg_fb50_p173x172&_nc_cat=104&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=2eIyD_wgd0wAX9CzmYS&_nc_ht=scontent-lga3-2.xx&oh=00_AfBPFLm6XuMDYfFVwuwYjgsVGg8mR5NuunUWTpUzHr2X2Q&oe=65DCD3EA",
         "EventUrl": "https://www.facebook.com/events/1070639960653630/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "3:00 PM",
         "EndTime": null
@@ -869,12 +869,12 @@
             "Latitude": null,
             "Longitude": null,
             "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": null,
-            "CountryCode": null
+            "City": "Montreal",
+            "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/423327300_890180879564400_3738049641183247909_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=102&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=2K1EqZn2HB8AX-KKVV7&_nc_ht=scontent-lga3-1.xx&oh=00_AfCBhey40AQ7t3FBqnX85vDGHGTvFdbDcFBifZhYU0rYCQ&oe=65DD777B",
+        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/423327300_890180879564400_3738049641183247909_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=102&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=2K1EqZn2HB8AX_jAYqc&_nc_ht=scontent-lga3-1.xx&oh=00_AfB2apMH_JWFyAer_6KB1bNnDKIPMC_V35as3bBqKcJhZQ&oe=65DD777B",
         "Organizer": "Hellenic Scholarships Foundation (HSF)",
-        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/423327300_890180879564400_3738049641183247909_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=102&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=2K1EqZn2HB8AX-KKVV7&_nc_ht=scontent-lga3-1.xx&oh=00_AfCBhey40AQ7t3FBqnX85vDGHGTvFdbDcFBifZhYU0rYCQ&oe=65DD777B",
+        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/423327300_890180879564400_3738049641183247909_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=102&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=2K1EqZn2HB8AX_jAYqc&_nc_ht=scontent-lga3-1.xx&oh=00_AfB2apMH_JWFyAer_6KB1bNnDKIPMC_V35as3bBqKcJhZQ&oe=65DD777B",
         "EventUrl": "https://www.facebook.com/events/3647555318794249/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "7:00 PM",
         "EndTime": null
@@ -889,12 +889,12 @@
             "Latitude": 35.0000035,
             "Longitude": 19.9999957,
             "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=35.0000035,19.9999957",
-            "City": null,
-            "CountryCode": null
+            "City": "Montreal",
+            "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/411430055_674747471508944_2603080800068534571_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=100&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=DX8eIG6UzQYAX-OhFhc&_nc_ht=scontent-lga3-2.xx&oh=00_AfD4rVOiJdWFKcvdZGsaHqxAQ-xEH6GMZOsJPtgL9CG6EA&oe=65DD8C0F",
+        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/411430055_674747471508944_2603080800068534571_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=100&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=DX8eIG6UzQYAX_sopSd&_nc_ht=scontent-lga3-2.xx&oh=00_AfBB0OFgYaLfpc8OTbcuVx05RsirR2qTMlbYVVWGrHYsSA&oe=65DD8C0F",
         "Organizer": "Ticket Crystal  365",
-        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/411430055_674747471508944_2603080800068534571_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=100&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=DX8eIG6UzQYAX-OhFhc&_nc_ht=scontent-lga3-2.xx&oh=00_AfD4rVOiJdWFKcvdZGsaHqxAQ-xEH6GMZOsJPtgL9CG6EA&oe=65DD8C0F",
+        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/411430055_674747471508944_2603080800068534571_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=100&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=DX8eIG6UzQYAX_sopSd&_nc_ht=scontent-lga3-2.xx&oh=00_AfBB0OFgYaLfpc8OTbcuVx05RsirR2qTMlbYVVWGrHYsSA&oe=65DD8C0F",
         "EventUrl": "https://www.facebook.com/events/1485663465340183/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "6:30 PM",
         "EndTime": null
@@ -909,12 +909,12 @@
             "Latitude": null,
             "Longitude": null,
             "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": null,
-            "CountryCode": null
+            "City": "Montreal",
+            "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/417450625_371920232255556_1840864093175162279_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=108&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=i6b-gOqNku8AX9RYxXZ&_nc_ht=scontent-lga3-1.xx&oh=00_AfAwgz-EhzgYn5bh121jCGPDUdWZqkDrS60zTs57wrymRA&oe=65DDAB97",
+        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/417450625_371920232255556_1840864093175162279_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=108&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=i6b-gOqNku8AX__EIGC&_nc_ht=scontent-lga3-1.xx&oh=00_AfDx1bXSzVXth1rXYEydlC40-kU1_xTY28q9gw2vSLLpmw&oe=65DDAB97",
         "Organizer": null,
-        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/417450625_371920232255556_1840864093175162279_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=108&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=i6b-gOqNku8AX9RYxXZ&_nc_ht=scontent-lga3-1.xx&oh=00_AfAwgz-EhzgYn5bh121jCGPDUdWZqkDrS60zTs57wrymRA&oe=65DDAB97",
+        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/417450625_371920232255556_1840864093175162279_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=108&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=i6b-gOqNku8AX__EIGC&_nc_ht=scontent-lga3-1.xx&oh=00_AfDx1bXSzVXth1rXYEydlC40-kU1_xTY28q9gw2vSLLpmw&oe=65DDAB97",
         "EventUrl": "https://www.facebook.com/events/878972987302956/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "8:00 PM",
         "EndTime": "9:30 PM"
@@ -929,12 +929,12 @@
             "Latitude": null,
             "Longitude": null,
             "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": null,
-            "CountryCode": null
+            "City": "Montreal",
+            "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/425712299_732727292295019_8484020752580944723_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=102&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=q41THGBEgAYAX_JIwEG&_nc_ht=scontent-lga3-1.xx&oh=00_AfBetAmejDRnhwenRcFWize5toypR6d5puy_EmBfmkFrYw&oe=65DDC417",
+        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/425712299_732727292295019_8484020752580944723_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=102&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=q41THGBEgAYAX_R6z7S&_nc_ht=scontent-lga3-1.xx&oh=00_AfDlMYJChuiPqX80NN8ZW20MtDlcgxUjGpcyRlfVBY3wPA&oe=65DDC417",
         "Organizer": "St. Ignatius of Loyola, Montreal",
-        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/425712299_732727292295019_8484020752580944723_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=102&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=q41THGBEgAYAX_JIwEG&_nc_ht=scontent-lga3-1.xx&oh=00_AfBetAmejDRnhwenRcFWize5toypR6d5puy_EmBfmkFrYw&oe=65DDC417",
+        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/425712299_732727292295019_8484020752580944723_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=102&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=q41THGBEgAYAX_R6z7S&_nc_ht=scontent-lga3-1.xx&oh=00_AfDlMYJChuiPqX80NN8ZW20MtDlcgxUjGpcyRlfVBY3wPA&oe=65DDC417",
         "EventUrl": "https://www.facebook.com/events/1471559360108717/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "7:00 PM",
         "EndTime": null
@@ -949,12 +949,12 @@
             "Latitude": 35.0000035,
             "Longitude": 19.9999957,
             "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=35.0000035,19.9999957",
-            "City": null,
-            "CountryCode": null
+            "City": "Montreal",
+            "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/423516298_891661516296890_4140391053109357942_n.jpg?stp=cp6_dst-jpg_fb50_p240x240&_nc_cat=111&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=_a9BT7ajLJQAX-NdXe1&_nc_ht=scontent-lga3-2.xx&oh=00_AfDPHPE0BZyKG7iIaTdMwlTj7xOkE8DPt_9azPb1Niz_TQ&oe=65DDC2A5",
+        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/423516298_891661516296890_4140391053109357942_n.jpg?stp=cp6_dst-jpg_fb50_p240x240&_nc_cat=111&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=_a9BT7ajLJQAX-Tg6-B&_nc_ht=scontent-lga3-2.xx&oh=00_AfBu1XqZCwukmD0SHL1f4EVviCr7384oStjgpuIzGq_lmg&oe=65DDC2A5",
         "Organizer": "Les Presses de l'Universit\u00e9 de Montr\u00e9al",
-        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/423516298_891661516296890_4140391053109357942_n.jpg?stp=cp6_dst-jpg_fb50_p240x240&_nc_cat=111&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=_a9BT7ajLJQAX-NdXe1&_nc_ht=scontent-lga3-2.xx&oh=00_AfDPHPE0BZyKG7iIaTdMwlTj7xOkE8DPt_9azPb1Niz_TQ&oe=65DDC2A5",
+        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/423516298_891661516296890_4140391053109357942_n.jpg?stp=cp6_dst-jpg_fb50_p240x240&_nc_cat=111&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=_a9BT7ajLJQAX-Tg6-B&_nc_ht=scontent-lga3-2.xx&oh=00_AfBu1XqZCwukmD0SHL1f4EVviCr7384oStjgpuIzGq_lmg&oe=65DDC2A5",
         "EventUrl": "https://www.facebook.com/events/718353070323912/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "5:30 PM",
         "EndTime": null
@@ -969,12 +969,12 @@
             "Latitude": null,
             "Longitude": null,
             "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": null,
-            "CountryCode": null
+            "City": "Montreal",
+            "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/417117502_284524207949728_6952823090632643695_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=111&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=DvRkKGjgl9kAX9BdTg9&_nc_ht=scontent-lga3-2.xx&oh=00_AfCQFizzv1LC0TQcVfJNpTJ4G1TUiWkB7S3k9vK7sTXUNg&oe=65DCC79A",
+        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/417117502_284524207949728_6952823090632643695_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=111&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=DvRkKGjgl9kAX-gjc4O&_nc_ht=scontent-lga3-2.xx&oh=00_AfBdhDVwgbTdcAwpCrbJXhOUk8BrJh836Y-KeTQQo0zX9Q&oe=65DCC79A",
         "Organizer": "The Montr\u00e9al Pinball Arcade",
-        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/417117502_284524207949728_6952823090632643695_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=111&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=DvRkKGjgl9kAX9BdTg9&_nc_ht=scontent-lga3-2.xx&oh=00_AfCQFizzv1LC0TQcVfJNpTJ4G1TUiWkB7S3k9vK7sTXUNg&oe=65DCC79A",
+        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/417117502_284524207949728_6952823090632643695_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=111&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=DvRkKGjgl9kAX-gjc4O&_nc_ht=scontent-lga3-2.xx&oh=00_AfBdhDVwgbTdcAwpCrbJXhOUk8BrJh836Y-KeTQQo0zX9Q&oe=65DCC79A",
         "EventUrl": "https://www.facebook.com/events/1080827959993483/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "11:00 AM",
         "EndTime": "4:00 PM"
@@ -989,12 +989,12 @@
             "Latitude": 35.0000035,
             "Longitude": 19.9999957,
             "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=35.0000035,19.9999957",
-            "City": null,
-            "CountryCode": null
+            "City": "Montreal",
+            "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/425512538_797023952454741_8388429947753949635_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=101&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=CelkpbSlzVkAX9-CdxO&_nc_ht=scontent-lga3-2.xx&oh=00_AfDc6Bb-YB_x1XsH9yZTyqSM8sjP69FJ_DitEqnB1Gztgg&oe=65DD8C70",
+        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/425512538_797023952454741_8388429947753949635_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=101&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=CelkpbSlzVkAX8CKTxH&_nc_ht=scontent-lga3-2.xx&oh=00_AfDw-sMp-biAf_X-4rV4Bs5lxLqCVzilPY5nx26iL1oIMg&oe=65DD8C70",
         "Organizer": "OAP",
-        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/425512538_797023952454741_8388429947753949635_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=101&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=CelkpbSlzVkAX9-CdxO&_nc_ht=scontent-lga3-2.xx&oh=00_AfDc6Bb-YB_x1XsH9yZTyqSM8sjP69FJ_DitEqnB1Gztgg&oe=65DD8C70",
+        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/425512538_797023952454741_8388429947753949635_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=101&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=CelkpbSlzVkAX8CKTxH&_nc_ht=scontent-lga3-2.xx&oh=00_AfDw-sMp-biAf_X-4rV4Bs5lxLqCVzilPY5nx26iL1oIMg&oe=65DD8C70",
         "EventUrl": "https://www.facebook.com/events/380339948052164/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "12:00 PM",
         "EndTime": null
@@ -1012,32 +1012,52 @@
             "City": "Montr\u00e9al",
             "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/402104716_666862788925868_6987574921516958122_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=110&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=qc_HVOgdyCwAX9k1Myd&_nc_ht=scontent-lga3-1.xx&oh=00_AfAdOL2-oHXTCo4fftLeQzVqBb3_hZ7mTsivOpfMXk5wrQ&oe=65DC8858",
+        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/402104716_666862788925868_6987574921516958122_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=110&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=qc_HVOgdyCwAX-DFALW&_nc_ht=scontent-lga3-1.xx&oh=00_AfBeK8KHL-2qgXvmUEWK1uzdPKKK_sE2dx-dgG1vmrO3Hg&oe=65DE8298",
         "Organizer": "Fractal Dream Production",
-        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/402104716_666862788925868_6987574921516958122_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=110&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=qc_HVOgdyCwAX9k1Myd&_nc_ht=scontent-lga3-1.xx&oh=00_AfAdOL2-oHXTCo4fftLeQzVqBb3_hZ7mTsivOpfMXk5wrQ&oe=65DC8858",
+        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/402104716_666862788925868_6987574921516958122_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=110&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=qc_HVOgdyCwAX-DFALW&_nc_ht=scontent-lga3-1.xx&oh=00_AfBeK8KHL-2qgXvmUEWK1uzdPKKK_sE2dx-dgG1vmrO3Hg&oe=65DE8298",
         "EventUrl": "https://www.facebook.com/events/2567435790100802/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "9:00 PM",
         "EndTime": null
     },
     {
-        "Title": "Hidden Garden Presents: Oasis Sonore Part 2",
+        "Title": "Resto-pub 100 g\u00e9nies",
         "Description": "Hidden Garden is back and excited to launch part 2 of it's innovative event series, offering a fresh concept to sprinkle some magic on your late Saturday afternoons and early eveni\u2026 See more",
-        "Date": "MAR 2 AT 3:00 PM \u2013 MAR 3 AT 1:00 AM EST",
+        "Date": null,
         "Location": {
             "Location": "See more",
             "Address": null,
             "Latitude": 35.0000035,
             "Longitude": 19.9999957,
             "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=35.0000035,19.9999957",
-            "City": null,
-            "CountryCode": null
+            "City": "Montreal",
+            "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/426379213_805938458197772_6355485748263136439_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=109&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=bwJPs1O0ESIAX9bwvTn&_nc_ht=scontent-lga3-2.xx&oh=00_AfB2-fCFZ_aGI5UhNUlMDAD9bUj_Yv2pPrWMjFhjzur7cA&oe=65DCCF47",
+        "ImageURL": null,
         "Organizer": "Hidden Garden",
-        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/426379213_805938458197772_6355485748263136439_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=109&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=bwJPs1O0ESIAX9bwvTn&_nc_ht=scontent-lga3-2.xx&oh=00_AfB2-fCFZ_aGI5UhNUlMDAD9bUj_Yv2pPrWMjFhjzur7cA&oe=65DCCF47",
+        "Organizer_IMG": "https://static.xx.fbcdn.net/images/emoji.php/v9/tc/2/16/1f973.png",
         "EventUrl": "https://www.facebook.com/events/2090684631267864/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "3:00 PM",
+        "StartTime": null,
         "EndTime": null
+    },
+    {
+        "Title": "The Keeper",
+        "Description": "https://www.showtix4u.com/event-details/80587",
+        "Date": "TUESDAY, FEBRUARY 27, 2024 AT 7:00 PM \u2013 9:00 PM EST",
+        "Location": {
+            "Location": "Art neuf",
+            "Address": "Soul Buoy",
+            "Latitude": null,
+            "Longitude": null,
+            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
+            "City": "Montreal",
+            "CountryCode": "ca"
+        },
+        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/392872916_418102077404954_8465775082352026988_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=102&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=SeIptgeMhNgAX_VtMFs&_nc_ht=scontent-lga3-1.xx&oh=00_AfDI4Z9bz4CHhTORZzuGI6qBKtc4GiKUsxLI3P3-PiAbMQ&oe=65DDB9FE",
+        "Organizer": "Rise Theatre Company",
+        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/392872916_418102077404954_8465775082352026988_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=102&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=SeIptgeMhNgAX_VtMFs&_nc_ht=scontent-lga3-1.xx&oh=00_AfDI4Z9bz4CHhTORZzuGI6qBKtc4GiKUsxLI3P3-PiAbMQ&oe=65DDB9FE",
+        "EventUrl": "https://www.facebook.com/events/1766173877185736/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
+        "StartTime": "7:00 PM",
+        "EndTime": "9:00 PM"
     },
     {
         "Title": "Kid Koala The Storyville Mosquito MONTR\u00c9AL",
@@ -1052,32 +1072,12 @@
             "City": "Montr\u00e9al",
             "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/394630402_845819776992539_5800618324434830595_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=107&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=Qn3vjkcC5OAAX9yW7uJ&_nc_ht=scontent-lga3-2.xx&oh=00_AfDEqPp2ONc-WRetvt7j9KL3z016fLY63d2byqLjlH9prQ&oe=65DCB081",
+        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/394630402_845819776992539_5800618324434830595_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=107&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=Qn3vjkcC5OAAX_TLYiX&_nc_ht=scontent-lga3-2.xx&oh=00_AfC9UuYnPv_z3ToP_wXjw5_qnIlS5pB4BaAKrhbCfVbhVw&oe=65DCB081",
         "Organizer": "Kid Koala",
-        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/394630402_845819776992539_5800618324434830595_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=107&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=Qn3vjkcC5OAAX9yW7uJ&_nc_ht=scontent-lga3-2.xx&oh=00_AfDEqPp2ONc-WRetvt7j9KL3z016fLY63d2byqLjlH9prQ&oe=65DCB081",
+        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/394630402_845819776992539_5800618324434830595_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=107&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=Qn3vjkcC5OAAX_TLYiX&_nc_ht=scontent-lga3-2.xx&oh=00_AfC9UuYnPv_z3ToP_wXjw5_qnIlS5pB4BaAKrhbCfVbhVw&oe=65DCB081",
         "EventUrl": "https://www.facebook.com/events/1277993696244556/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "3:00 PM",
         "EndTime": null
-    },
-    {
-        "Title": "The Keeper",
-        "Description": "https://www.showtix4u.com/event-details/80587",
-        "Date": "TUESDAY, FEBRUARY 27, 2024 AT 7:00 PM \u2013 9:00 PM EST",
-        "Location": {
-            "Location": "Art neuf",
-            "Address": "Soul Buoy",
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": null,
-            "CountryCode": null
-        },
-        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/392872916_418102077404954_8465775082352026988_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=102&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=SeIptgeMhNgAX_yLSBm&_nc_ht=scontent-lga3-1.xx&oh=00_AfDMKh34FA8kNDex-J5_XokVZpICeQbzJA_ivxbZnQLTIA&oe=65DDB9FE",
-        "Organizer": "Rise Theatre Company",
-        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/392872916_418102077404954_8465775082352026988_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=102&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=SeIptgeMhNgAX_yLSBm&_nc_ht=scontent-lga3-1.xx&oh=00_AfDMKh34FA8kNDex-J5_XokVZpICeQbzJA_ivxbZnQLTIA&oe=65DDB9FE",
-        "EventUrl": "https://www.facebook.com/events/1766173877185736/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "7:00 PM",
-        "EndTime": "9:00 PM"
     },
     {
         "Title": "COMPLET - Initiation au mapping en installation [FORMATION SAT]",
@@ -1092,331 +1092,11 @@
             "City": "Montr\u00e9al",
             "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/398799314_735027991994777_8169999857169450873_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=105&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=WvysybbjGUAAX-Flwei&_nc_ht=scontent-lga3-2.xx&oh=00_AfBFaMkrH5I7xXWDRJbPhjToWTDqED28v2oEc4PC-DnsRQ&oe=65DE39FD",
+        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/398799314_735027991994777_8169999857169450873_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=105&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=WvysybbjGUAAX8tuffT&_nc_ht=scontent-lga3-2.xx&oh=00_AfBtqQ2xllw-e6rfHG1ioYE-KoiW6fikbWk5xBKIaJlKMw&oe=65DE39FD",
         "Organizer": "Soci\u00e9t\u00e9 des arts technologiques [SAT]",
-        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/398799314_735027991994777_8169999857169450873_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=105&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=WvysybbjGUAAX-Flwei&_nc_ht=scontent-lga3-2.xx&oh=00_AfBFaMkrH5I7xXWDRJbPhjToWTDqED28v2oEc4PC-DnsRQ&oe=65DE39FD",
+        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/398799314_735027991994777_8169999857169450873_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=105&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=WvysybbjGUAAX8tuffT&_nc_ht=scontent-lga3-2.xx&oh=00_AfBtqQ2xllw-e6rfHG1ioYE-KoiW6fikbWk5xBKIaJlKMw&oe=65DE39FD",
         "EventUrl": "https://www.facebook.com/events/220437994269769/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "6:00 PM",
-        "EndTime": null
-    },
-    {
-        "Title": "Show at TraXide w/Crachat & Postmistress",
-        "Description": "We're back at TraXide !! ------------On February 24th 2024 we will be back at TraXide to play with the amazing Crachat & Postmistress!",
-        "Date": "SATURDAY, FEBRUARY 24, 2024 AT 9:00 PM EST",
-        "Location": {
-            "Location": "The TraXide",
-            "Address": "Soul Buoy",
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": null,
-            "CountryCode": null
-        },
-        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/420449913_394135049807986_4010473145775955130_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=103&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=bi8Xnbx38CoAX-iTRpl&_nc_ht=scontent-lga3-1.xx&oh=00_AfApKD64b5IX4EZTHdDxg0W_MgHvAebrj8Z2yhv2YMTZCg&oe=65DCABEE",
-        "Organizer": "Legally Blind",
-        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/420449913_394135049807986_4010473145775955130_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=103&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=bi8Xnbx38CoAX-iTRpl&_nc_ht=scontent-lga3-1.xx&oh=00_AfApKD64b5IX4EZTHdDxg0W_MgHvAebrj8Z2yhv2YMTZCg&oe=65DCABEE",
-        "EventUrl": "https://www.facebook.com/events/1461845011209139/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "9:00 PM",
-        "EndTime": null
-    },
-    {
-        "Title": "The Big Bang - An Instant Neighbourhood: Western NDG, the Fifties and the Jews",
-        "Description": "This is an in-person and online hybrid event! Guests are welcome to attend the Shaare Zedek Synagogue, 5305 Rosedale Avenue, Notre-Dame-de-Gr\u00e2ce (NDG) in Montreal, Quebec to hear t\u2026 See more",
-        "Date": "SUNDAY, MARCH 3, 2024 AT 1:00 PM EST",
-        "Location": {
-            "Location": "5305 Avenue Rosedale, Montr\u00e9al, QC H4V 2H7, Canada",
-            "Address": "Soul Buoy",
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": null,
-            "CountryCode": null
-        },
-        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/428635993_778808147608416_8325105847003468618_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=100&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=nqhn6NA3I9kAX8G7dNf&_nc_ht=scontent-lga3-2.xx&oh=00_AfDoXEAH2OP4FIJpfdKaul8HNqqSq5wnZzNmDp3lrUGx1Q&oe=65DCF73B",
-        "Organizer": "Quebec Anglophone Heritage Network - QAHN",
-        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/428635993_778808147608416_8325105847003468618_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=100&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=nqhn6NA3I9kAX8G7dNf&_nc_ht=scontent-lga3-2.xx&oh=00_AfDoXEAH2OP4FIJpfdKaul8HNqqSq5wnZzNmDp3lrUGx1Q&oe=65DCF73B",
-        "EventUrl": "https://www.facebook.com/events/946624770433228/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "1:00 PM",
-        "EndTime": null
-    },
-    {
-        "Title": "ROS\u00c9LYS X MANOIR HOVEY",
-        "Description": "Dans le cadre de Montr\u00e9al en Lumi\u00e8re, le chef du Manoir Hovey, Alexandre Vachon, se joint \u00e0 nous pour une exp\u00e9rience dinatoire exceptionnelle. Aux c\u00f4t\u00e9s de notre chef, Edgar Trude\u2026 See more",
-        "Date": "FRIDAY, FEBRUARY 23, 2024 AT 5:00 PM EST",
-        "Location": {
-            "Location": "Ros\u00e9lys",
-            "Address": "6, All\u00e9e C\u00e9sar Franck, Los Pont\u00f2ts, Lapurdi, Ar\u00e8nes, Bayonne, Pyr\u00e9n\u00e9es-Atlantiques, Nouvelle-Aquitaine, France m\u00e9tropolitaine, 64100, France",
-            "Latitude": 43.494136600000004,
-            "Longitude": -1.4907188880434763,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=43.494136600000004,-1.4907188880434763",
-            "City": null,
-            "CountryCode": "fr"
-        },
-        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/423862995_878273040974853_1256743700791325309_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=111&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=bLCXJjTgCm4AX-iSxb_&_nc_ht=scontent-lga3-2.xx&oh=00_AfC5tK1615dN4XZBpLzuVeEr0WEoQNH470epnQs8gDkOjw&oe=65DE6FFD",
-        "Organizer": "Ros\u00e9lys",
-        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/423862995_878273040974853_1256743700791325309_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=111&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=bLCXJjTgCm4AX-iSxb_&_nc_ht=scontent-lga3-2.xx&oh=00_AfC5tK1615dN4XZBpLzuVeEr0WEoQNH470epnQs8gDkOjw&oe=65DE6FFD",
-        "EventUrl": "https://www.facebook.com/events/1830808587351474/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "5:00 PM",
-        "EndTime": null
-    },
-    {
-        "Title": "worship night",
-        "Description": "come and join us for a wonderful time of praise and worship.",
-        "Date": "SATURDAY, FEBRUARY 24, 2024 AT 7:00 PM EST",
-        "Location": {
-            "Location": "See more",
-            "Address": null,
-            "Latitude": 35.0000035,
-            "Longitude": 19.9999957,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=35.0000035,19.9999957",
-            "City": null,
-            "CountryCode": null
-        },
-        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/425605536_351663297830574_3224313635416568527_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=110&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=6gAAzMSIzikAX-sdznq&_nc_ht=scontent-lga3-1.xx&oh=00_AfBFlycsBEytpEpNgDeJJ2zYX6VC-eaAhF5ROID40qzHJg&oe=65DD1BF9",
-        "Organizer": "Unite The Church",
-        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/425605536_351663297830574_3224313635416568527_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=110&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=6gAAzMSIzikAX-sdznq&_nc_ht=scontent-lga3-1.xx&oh=00_AfBFlycsBEytpEpNgDeJJ2zYX6VC-eaAhF5ROID40qzHJg&oe=65DD1BF9",
-        "EventUrl": "https://www.facebook.com/events/1136101717761063/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "7:00 PM",
-        "EndTime": null
-    },
-    {
-        "Title": "CELEBRATING CELINE - THE ULTIMATE TRIBUTE TO CELINE DION - RIALTO THEATRE - MONTREAL",
-        "Description": "Following an incredible run of sell out theatre tours across the UK and Europe, multi award-winning tribute artiste January Butler is now taking her very own brand new theatre prod\u2026 See more",
-        "Date": "SATURDAY, APRIL 13, 2024 AT 7:30 PM EDT",
-        "Location": {
-            "Location": "Th\u00e9\u00e2tre Rialto",
-            "Address": "11, Dyke Road, Prestonville, Brighton, Brighton and Hove, England, BN1 3FE, United Kingdom",
-            "Latitude": 50.8242198,
-            "Longitude": -0.1450714,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=50.8242198,-0.1450714",
-            "City": "Brighton",
-            "CountryCode": "gb"
-        },
-        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/402522682_744918287651772_5424991916837698610_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=107&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=DI4rof-pZfQAX-nJ350&_nc_oc=AQnnXRYmF9_6NnW2C4gxRM-GSy7jWqzni48S9syvDoQB7qFjNF251Gw2S_6WyDh2tLU&_nc_ht=scontent-lga3-2.xx&oh=00_AfDhf95l5PPx8HRir6paQflrVafsvoVPpeF9nwJX_3B6pA&oe=65DE810D",
-        "Organizer": "Forrest Jones Entertainment",
-        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/402522682_744918287651772_5424991916837698610_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=107&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=DI4rof-pZfQAX-nJ350&_nc_oc=AQnnXRYmF9_6NnW2C4gxRM-GSy7jWqzni48S9syvDoQB7qFjNF251Gw2S_6WyDh2tLU&_nc_ht=scontent-lga3-2.xx&oh=00_AfDhf95l5PPx8HRir6paQflrVafsvoVPpeF9nwJX_3B6pA&oe=65DE810D",
-        "EventUrl": "https://www.facebook.com/events/6399462943452712/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "7:30 PM",
-        "EndTime": null
-    },
-    {
-        "Title": "2024 Apex Sports Camp",
-        "Description": "The mission of Apex Sports Camp is to bring College coaches directly to you.  You will have the chance to showcase your abilities in front of them, receive on ice instructions, and\u2026 See more",
-        "Date": "MAY 10 AT 1:00 PM \u2013 MAY 12 AT 2:00 PM EDT",
-        "Location": {
-            "Location": "Complexe R\u00e9cr\u00e9atif Gadbois",
-            "Address": "Rue Notre-Dame Ouest, Le Sud-Ouest, Montr\u00e9al, Agglom\u00e9ration de Montr\u00e9al, Montr\u00e9al (r\u00e9gion administrative), Qu\u00e9bec, H4C 1X3, Canada",
-            "Latitude": 45.4677333,
-            "Longitude": -73.597585,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=45.4677333,-73.597585",
-            "City": "Montr\u00e9al",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/420784427_824009643070621_4802819082593990864_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=102&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=oip-VPioUKsAX8bmRI8&_nc_ht=scontent-lga3-1.xx&oh=00_AfDsdswEh1ZervluBKHYov9gufn_IaZf2as01y9bEbYJrw&oe=65DD33C0",
-        "Organizer": "Apex Sports Camp",
-        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/420784427_824009643070621_4802819082593990864_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=102&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=oip-VPioUKsAX8bmRI8&_nc_ht=scontent-lga3-1.xx&oh=00_AfDsdswEh1ZervluBKHYov9gufn_IaZf2as01y9bEbYJrw&oe=65DD33C0",
-        "EventUrl": "https://www.facebook.com/events/1019321759169039/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "1:00 PM",
-        "EndTime": null
-    },
-    {
-        "Title": "Business Beyond Tomorrow",
-        "Description": "Business BEYOND Tomorrow",
-        "Date": "SATURDAY, FEBRUARY 24, 2024 AT 10:00 AM \u2013 6:30 PM EST",
-        "Location": {
-            "Location": "LaPiscine (Montreal, QC, Canada)",
-            "Address": "Soul Buoy",
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": null,
-            "CountryCode": null
-        },
-        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/427886727_984728263086237_2198755212218608452_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=105&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=_s_7_oTRvUkAX8gYFZa&_nc_ht=scontent-lga3-2.xx&oh=00_AfCr-tDAx0rycNF4rS8hN2bBw07t4uQWG8P5u-BIQ_Yv4Q&oe=65DDA91F",
-        "Organizer": "JSEC - John Molson Sustainable Enterprise Committee",
-        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/427886727_984728263086237_2198755212218608452_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=105&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=_s_7_oTRvUkAX8gYFZa&_nc_ht=scontent-lga3-2.xx&oh=00_AfCr-tDAx0rycNF4rS8hN2bBw07t4uQWG8P5u-BIQ_Yv4Q&oe=65DDA91F",
-        "EventUrl": "https://www.facebook.com/events/402245595596492/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "10:00 AM",
-        "EndTime": "6:30 PM"
-    },
-    {
-        "Title": "Friday night comedy show at melrose resto",
-        "Description": "Get your tickets \u2026..",
-        "Date": "FRIDAY, FEBRUARY 23, 2024 AT 8:00 PM \u2013 10:00 PM EST",
-        "Location": {
-            "Location": "Jimmy Scalia",
-            "Address": "Soul Buoy",
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": null,
-            "CountryCode": null
-        },
-        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/387058184_10159324360296560_1670027352148723166_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=109&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=C0qHXH3yaKUAX-D3GtT&_nc_ht=scontent-lga3-2.xx&oh=00_AfDiwqkeYM2wXG32cJ6ORoc1yhhfCGAKUnjL0LBTQnDcLA&oe=65DE34B7",
-        "Organizer": "Jimmy Scalia",
-        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/387058184_10159324360296560_1670027352148723166_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=109&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=C0qHXH3yaKUAX-D3GtT&_nc_ht=scontent-lga3-2.xx&oh=00_AfDiwqkeYM2wXG32cJ6ORoc1yhhfCGAKUnjL0LBTQnDcLA&oe=65DE34B7",
-        "EventUrl": "https://www.facebook.com/events/1343744003185239/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "8:00 PM",
-        "EndTime": "10:00 PM"
-    },
-    {
-        "Title": "Boogie Feelin' Vol3",
-        "Description": "Hiii groooversss,",
-        "Date": "FRIDAY, MARCH 8, 2024 AT 11:00 PM \u2013 6:00 AM EST",
-        "Location": {
-            "Location": "Kin Experience",
-            "Address": "Kin Experience, Rue Sainte-Catherine Ouest, Quartier des Spectacles, Ville-Marie, Montr\u00e9al, Agglom\u00e9ration de Montr\u00e9al, Montr\u00e9al (r\u00e9gion administrative), Qu\u00e9bec, H3B 1A1, Canada",
-            "Latitude": 45.5056174,
-            "Longitude": -73.5677391,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=45.5056174,-73.5677391",
-            "City": "Montr\u00e9al",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/427903310_379928234788697_5994161801379122702_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=108&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=0qijEdy-k3QAX9Mp1C5&_nc_ht=scontent-lga3-1.xx&oh=00_AfBb4lTpcvXFwJ7mhswW3DGh9_fHq3vcuAgZlMO3v2aiPg&oe=65DCEC91",
-        "Organizer": "Groovy Castle",
-        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/427903310_379928234788697_5994161801379122702_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=108&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=0qijEdy-k3QAX9Mp1C5&_nc_ht=scontent-lga3-1.xx&oh=00_AfBb4lTpcvXFwJ7mhswW3DGh9_fHq3vcuAgZlMO3v2aiPg&oe=65DCEC91",
-        "EventUrl": "https://www.facebook.com/events/1779804575777049/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "11:00 PM",
-        "EndTime": "6:00 AM"
-    },
-    {
-        "Title": "Alex Zhang Hungtai, Habib, FDG, Sam Shalabi - The Old Bank - May 3rd 2024",
-        "Description": "Heavy Trip & OK L\u00c0 pr\u00e9sentent:",
-        "Date": "FRIDAY, MAY 3, 2024 AT 6:00 PM EDT",
-        "Location": {
-            "Location": "The Old Bank",
-            "Address": "The Old Bank, Longhoughton, Northumberland, North of Tyne, England, NE66 3FH, United Kingdom",
-            "Latitude": 55.4306346,
-            "Longitude": -1.6198963,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=55.4306346,-1.6198963",
-            "City": null,
-            "CountryCode": "gb"
-        },
-        "ImageURL": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/427855849_883216443595098_8200862435955482267_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=103&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=zr6koQi_wq8AX-SylAr&_nc_ht=scontent-lga3-1.xx&oh=00_AfCsohkt0R4DbW8MIMGnAlUORdU752jgHLjzWMh2ZepIEg&oe=65DCBDF7",
-        "Organizer": "Heavy Trip",
-        "Organizer_IMG": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/427855849_883216443595098_8200862435955482267_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=103&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=zr6koQi_wq8AX-SylAr&_nc_ht=scontent-lga3-1.xx&oh=00_AfCsohkt0R4DbW8MIMGnAlUORdU752jgHLjzWMh2ZepIEg&oe=65DCBDF7",
-        "EventUrl": "https://www.facebook.com/events/915204459793789/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "6:00 PM",
-        "EndTime": null
-    },
-    {
-        "Title": "100% Human Error",
-        "Description": "If life is a secret science experiment, then what accounts for all of this fuckery?",
-        "Date": "THURSDAY, FEBRUARY 29, 2024 AT 2:30 PM \u2013 4:00 PM EST",
-        "Location": {
-            "Location": "Acts of Listening Lab",
-            "Address": "Soul Buoy",
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": null,
-            "CountryCode": null
-        },
-        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/428153671_285168134584194_4125198274620584564_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=111&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=c63t6KgMAQsAX-x3Z7f&_nc_ht=scontent-lga3-2.xx&oh=00_AfAET-Xbukdro9I05D5iw9HG--2iRSEcFe8cAxyAilqcsg&oe=65DD1B7E",
-        "Organizer": "The Sky Is The Limit Theatre",
-        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/428153671_285168134584194_4125198274620584564_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=111&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=c63t6KgMAQsAX-x3Z7f&_nc_ht=scontent-lga3-2.xx&oh=00_AfAET-Xbukdro9I05D5iw9HG--2iRSEcFe8cAxyAilqcsg&oe=65DD1B7E",
-        "EventUrl": "https://www.facebook.com/events/2328168040710804/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "2:30 PM",
-        "EndTime": "4:00 PM"
-    },
-    {
-        "Title": "Mondays \u2022 Love Without Expectations",
-        "Description": "How do we distinguish between love and uncontrolled desire, or attachment?",
-        "Date": "MONDAY, FEBRUARY 26, 2024 AT 7:00 PM \u2013 8:15 PM EST",
-        "Location": {
-            "Location": "Centre de m\u00e9ditation kadampa Montr\u00e9al",
-            "Address": "Soul Buoy",
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": null,
-            "CountryCode": null
-        },
-        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/427760395_907292364734624_7440341844748168454_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=111&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=8nv5a0W_XNcAX-7bY8x&_nc_ht=scontent-lga3-2.xx&oh=00_AfCf_f97QDMqHOnRKU2LhQZKs9iubUjgy4nqDcWPMLinmg&oe=65DE0316",
-        "Organizer": "Centre de m\u00e9ditation kadampa Montr\u00e9al",
-        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/427760395_907292364734624_7440341844748168454_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=111&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=8nv5a0W_XNcAX-7bY8x&_nc_ht=scontent-lga3-2.xx&oh=00_AfCf_f97QDMqHOnRKU2LhQZKs9iubUjgy4nqDcWPMLinmg&oe=65DE0316",
-        "EventUrl": "https://www.facebook.com/events/745976760821939/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "7:00 PM",
-        "EndTime": "8:15 PM"
-    },
-    {
-        "Title": "Zubah and Ecto",
-        "Description": "Headliners:ZubahEcto",
-        "Date": "SATURDAY, MARCH 9, 2024 AT 8:00 PM EST",
-        "Location": {
-            "Location": "See more",
-            "Address": null,
-            "Latitude": 35.0000035,
-            "Longitude": 19.9999957,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=35.0000035,19.9999957",
-            "City": null,
-            "CountryCode": null
-        },
-        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/422878728_880442994088400_5581164045236836574_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=107&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=NoWTSBfkNSsAX-sB0II&_nc_ht=scontent-lga3-2.xx&oh=00_AfCuTZ2IcbESS5IxUPLqlMsBtjTsD9Ukox9iNaZBJCzVug&oe=65DE177A",
-        "Organizer": "Breakout Events",
-        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/422878728_880442994088400_5581164045236836574_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=107&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=NoWTSBfkNSsAX-sB0II&_nc_ht=scontent-lga3-2.xx&oh=00_AfCuTZ2IcbESS5IxUPLqlMsBtjTsD9Ukox9iNaZBJCzVug&oe=65DE177A",
-        "EventUrl": "https://www.facebook.com/events/1449351779340003/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "8:00 PM",
-        "EndTime": null
-    },
-    {
-        "Title": "Cystic Embalmment, Hakapik, Ater, Panic Save",
-        "Description": "This March Second. Probabaly.. hopefully.. maybe..? the best show of the night",
-        "Date": "SATURDAY, MARCH 2, 2024 AT 9:00 PM EST",
-        "Location": {
-            "Location": "Traxide",
-            "Address": "Soul Buoy",
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": null,
-            "CountryCode": null
-        },
-        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/415163599_2041395076225709_1618132588244236795_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=111&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=1GBTSSbDUfUAX8dW6OX&_nc_ht=scontent-lga3-2.xx&oh=00_AfCnnZw5Eby-m0VQ2X1JuevXxR1mmvLkpUJ6z7ZSbhDJJA&oe=65DD9E78",
-        "Organizer": "Wannabe Productions",
-        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/415163599_2041395076225709_1618132588244236795_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=111&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=1GBTSSbDUfUAX8dW6OX&_nc_ht=scontent-lga3-2.xx&oh=00_AfCnnZw5Eby-m0VQ2X1JuevXxR1mmvLkpUJ6z7ZSbhDJJA&oe=65DD9E78",
-        "EventUrl": "https://www.facebook.com/events/696659359225660/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "9:00 PM",
-        "EndTime": null
-    },
-    {
-        "Title": "Psychedelic Babylon : \"Cosmic Travelers\" w/ ACE VENTURA (IL) (3 Hour Set) & ASGARD (IL) - Montreal",
-        "Description": "Greetings Babylon Tribe! We could not wait to share with you the exciting plans we have for next year so here it comes!",
-        "Date": "FRIDAY, APRIL 12, 2024 AT 9:00 PM \u2013 6:00 AM EDT",
-        "Location": {
-            "Location": "Le Sainte-Catherine Hall",
-            "Address": "Soul Buoy",
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": null,
-            "CountryCode": null
-        },
-        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/399018758_817485506842346_6211093151192421403_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=100&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=rIco2t8tre0AX942tqK&_nc_ht=scontent-lga3-2.xx&oh=00_AfBIFxrcJckl6MAGHwgd3ZBDG-8leNn4DcjQsQY1Palt_A&oe=65DDD336",
-        "Organizer": "Psychedelic Babylon",
-        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/399018758_817485506842346_6211093151192421403_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=100&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=rIco2t8tre0AX942tqK&_nc_ht=scontent-lga3-2.xx&oh=00_AfBIFxrcJckl6MAGHwgd3ZBDG-8leNn4DcjQsQY1Palt_A&oe=65DDD336",
-        "EventUrl": "https://www.facebook.com/events/1732922303843627/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "9:00 PM",
-        "EndTime": "6:00 AM"
-    },
-    {
-        "Title": "3rd AAPlab International Conference \"Surface Tension: K-Arts in the Hallyu Era\u201d",
-        "Description": "Arts East-West and Asian Arts Publication Laboratory (AAPlab) is returning for the 3rd edition of the annual International Conference!",
-        "Date": "FEB 22 AT 9:00 AM \u2013 FEB 24 AT 10:00 PM EST",
-        "Location": {
-            "Location": "UdeM",
-            "Address": "Universit\u00e9 de Montr\u00e9al, 2900, Boulevard \u00c9douard-Montpetit, C\u00f4te-des-Neiges\u2013Notre-Dame-de-Gr\u00e2ce, Montr\u00e9al, Agglom\u00e9ration de Montr\u00e9al, Montr\u00e9al (r\u00e9gion administrative), Qu\u00e9bec, H3T 1J4, Canada",
-            "Latitude": 45.50438,
-            "Longitude": -73.61466101096477,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=45.50438,-73.61466101096477",
-            "City": "Montr\u00e9al",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/425817344_358935216926774_6361960977714853211_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=100&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=dD-KDcu6XL8AX806Ey_&_nc_ht=scontent-lga3-2.xx&oh=00_AfAUca2MYM70QMMN8TPfAWYnGeYfSnznVQzuyGmf8eIIKg&oe=65DE072C",
-        "Organizer": "Asian Art Publication Lab",
-        "Organizer_IMG": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/425817344_358935216926774_6361960977714853211_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=100&ccb=1-7&_nc_sid=d8d9c5&_nc_ohc=dD-KDcu6XL8AX806Ey_&_nc_ht=scontent-lga3-2.xx&oh=00_AfAUca2MYM70QMMN8TPfAWYnGeYfSnznVQzuyGmf8eIIKg&oe=65DE072C",
-        "EventUrl": "https://www.facebook.com/events/990264939129081/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "9:00 AM",
         "EndTime": null
     }
 ]

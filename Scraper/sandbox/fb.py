@@ -51,9 +51,12 @@ def get_location_details(latitude, longitude):
             city = location.raw.get('address', {}).get('city')
             country_code = location.raw.get('address', {}).get('country_code')
 
-            # Ajustando a cidade para 'Montréal' e o código do país para 'ca' se a cidade for Montreal
-            if city and city.lower() == 'montreal':
-                city = 'Montréal'
+            # Ajuste para Montreal e ca apenas se ambos forem None
+            if city is None and country_code is None:
+                city = 'Montreal'
+                country_code = 'ca'
+            elif city and city.lower() == 'montreal':
+                city = 'Montreal'
                 country_code = 'ca'
 
             return address, city, country_code
@@ -63,7 +66,8 @@ def get_location_details(latitude, longitude):
         print(f"An error occurred while fetching location details: {e}")
         return None, None, None
 
-def scrape_facebook_events(driver, url, selectors, max_scroll=20):
+
+def scrape_facebook_events(driver, url, selectors, max_scroll=30):
     driver.get(url)
     driver.implicitly_wait(20)
 
@@ -131,6 +135,11 @@ def scrape_facebook_events(driver, url, selectors, max_scroll=20):
         location_details['Location']['Address'] = address
         location_details['Location']['City'] = city
         location_details['Location']['CountryCode'] = country_code
+
+        # Se tanto a cidade quanto o código do país forem None, ajuste para Montreal e ca
+        if city is None and country_code is None:
+            location_details['Location']['City'] = 'Montreal'
+            location_details['Location']['CountryCode'] = 'ca'
 
         date_text = event_page.find('div', class_='x1e56ztr x1xmf6yo').text.strip() if event_page.find('div', class_='x1e56ztr x1xmf6yo') else None
 
