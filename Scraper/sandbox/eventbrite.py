@@ -3,12 +3,10 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 import time
-from fuzzywuzzy import fuzz
 from datetime import datetime
 import requests
 from geopy.geocoders import Nominatim
 import geopy.exc
-import re
 
 def scroll_to_bottom(driver, max_clicks=5):
     for _ in range(max_clicks):
@@ -31,7 +29,7 @@ def format_date(date_str, source):
         return formatted_date
     elif source_lower == 'eventbrite':
         # Eventbrite: Sunday, March 3
-        formatted_date = datetime.strptime(date_str, '%A, %B %d')
+        formatted_date = datetime.strptime(date_str, '%a, %b %d, %Y %I:%M %p - %a, %b %d, %Y %I:%M %p %Z')
         return formatted_date
     else:
         return None
@@ -72,6 +70,16 @@ def format_location(location_str, source):
             'CountryCode': 'ca'
         }
 
+def extract_start_end_time(date_str):
+    try:
+        # Divide a string de data nos horários de início e fim
+        start_end_times = date_str.split(" - ")
+        start_time = start_end_times[0].split(", ")[-1]  # Obtém apenas o horário de início
+        end_time = start_end_times[1].split(", ")[-1]  # Obtém apenas o horário de fim
+        return start_time.strip(), end_time.strip()
+    except Exception as e:
+        print(f"An error occurred while extracting start and end times: {e}")
+        return None, None
 
 def get_coordinates(location):
     geolocator = Nominatim(user_agent="event_scraper")
@@ -159,6 +167,7 @@ def scrape_eventbrite_events(driver, url, selectors, max_pages=30):
             event_info['Description'] = description
             event_info['Price'] = price
             event_info['Date'] = date
+            event_info['StartTime'], event_info['EndTime'] = extract_start_end_time(date)
             event_info.update(format_location(location, 'Eventbrite'))
             event_info['Latitude'] = latitude  # Adiciona latitude
             event_info['Longitude'] = longitude  # Adiciona longitude
