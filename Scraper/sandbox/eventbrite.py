@@ -7,6 +7,7 @@ from datetime import datetime
 import requests
 from geopy.geocoders import Nominatim
 import geopy.exc
+import re
 
 def scroll_to_bottom(driver, max_clicks=5):
     for _ in range(max_clicks):
@@ -71,14 +72,23 @@ def format_location(location_str, source):
         }
 
 def extract_start_end_time(date_str):
-    try:
-        # Divide a string de data nos horários de início e fim
-        start_end_times = date_str.split(" - ")
-        start_time = start_end_times[0].split(", ")[-1]  # Obtém apenas o horário de início
-        end_time = start_end_times[1].split(", ")[-1]  # Obtém apenas o horário de fim
+    if date_str is None:
+        return None, None
+
+    if "-" not in date_str:
+        start_time_match = re.search(r'(\d{1,2}:\d{2}\s*(?:AM|PM)?)', date_str)
+        if start_time_match:
+            start_time = start_time_match.group(1)
+            return start_time.strip(), None
+        else:
+            return None, None
+
+    match = re.search(r'(\d{1,2}:\d{2}\s*(?:AM|PM)?)\s*-\s*(\d{1,2}:\d{2}\s*(?:AM|PM)?)', date_str)
+    if match:
+        start_time = match.group(1)
+        end_time = match.group(2)
         return start_time.strip(), end_time.strip()
-    except Exception as e:
-        print(f"An error occurred while extracting start and end times: {e}")
+    else:
         return None, None
 
 def get_coordinates(location):
