@@ -83,7 +83,7 @@ def extract_start_end_time(date_str):
         else:
             return None, None
 
-    match = re.search(r'(\d{1,2}:\d{2}\s*(?:AM|PM)?)\s*-\s*(\d{1,2}:\d{2}\s*(?:AM|PM)?)', date_str)
+    match = re.search(r'(\w{3}, \w{3} \d{1,2}, \d{4} \d{1,2}:\d{2} (?:AM|PM))\s*-\s*(\w{3}, \w{3} \d{1,2}, \d{4} \d{1,2}:\d{2} (?:AM|PM))', date_str)
     if match:
         start_time = match.group(1)
         end_time = match.group(2)
