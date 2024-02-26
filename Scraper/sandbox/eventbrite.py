@@ -8,6 +8,7 @@ from datetime import datetime
 import requests
 from geopy.geocoders import Nominatim
 import geopy.exc
+import re
 
 def scroll_to_bottom(driver, max_clicks=5):
     for _ in range(max_clicks):
@@ -39,27 +40,38 @@ def format_location(location_str, source):
     if source == 'Facebook' or source == 'Eventbrite':
         return {
             'Location': location_str.strip(),
+            'City': 'Montreal',
+            'CountryCode': 'ca'
         }
     elif source == 'Google':
         # Use Google Places API to get formatted location and additional information
-        api_key = 'AIzaSyD4K3294QGT9YUSquGZ_G82YMI856E0BzA'
-        url = f'https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input={location_str}&inputtype=textquery&fields=formatted_address,geometry&key={api_key}'
+        api_key = 'YOUR_GOOGLE_PLACES_API_KEY'
+        url = f'https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input={location_str}&inputtype=textquery&fields=address_components,geometry&key={api_key}'
         response = requests.get(url)
         if response.status_code == 200:
             data = response.json()
             if data['status'] == 'OK' and len(data['candidates']) > 0:
-                formatted_address = data['candidates'][0]['formatted_address']
-                location = formatted_address.split(',')[0]  # Extracting the location name
+                address_components = data['candidates'][0]['address_components']
+                city = next((component['long_name'] for component in address_components if 'locality' in component['types']), None)
+                country_code = next((component['short_name'] for component in address_components if 'country' in component['types']), None)
                 return {
-                    'Location': location.strip(),
-                    'FormattedAddress': formatted_address,
-                    'Latitude': data['candidates'][0]['geometry']['location']['lat'],
-                    'Longitude': data['candidates'][0]['geometry']['location']['lng']
+                    'Location': location_str.strip(),
+                    'City': city,
+                    'CountryCode': country_code
                 }
-        # If unable to fetch data from Google Places API, return None
-        return None
+        # If unable to fetch data from Google Places API, return default values
+        return {
+            'Location': location_str.strip(),
+            'City': 'Montreal',
+            'CountryCode': 'ca'
+        }
     else:
-        return None
+        return {
+            'Location': location_str.strip(),
+            'City': 'Montreal',
+            'CountryCode': 'ca'
+        }
+
 
 def get_coordinates(location):
     geolocator = Nominatim(user_agent="event_scraper")
@@ -87,7 +99,7 @@ def open_google_maps(latitude, longitude):
 
 def scrape_eventbrite_events(driver, url, selectors, max_pages=30):
     driver.get(url)
-    driver.implicitly_wait(10)
+    driver.implicitly_wait(20)
 
     all_events = []
 
@@ -147,7 +159,7 @@ def scrape_eventbrite_events(driver, url, selectors, max_pages=30):
             event_info['Description'] = description
             event_info['Price'] = price
             event_info['Date'] = date
-            event_info['Location'] = location
+            event_info.update(format_location(location, 'Eventbrite'))
             event_info['Latitude'] = latitude  # Adiciona latitude
             event_info['Longitude'] = longitude  # Adiciona longitude
             event_info['Tags'] = tags
