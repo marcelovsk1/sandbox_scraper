@@ -115,6 +115,20 @@ def open_google_maps(latitude, longitude):
     google_maps_url = f"https://www.google.com/maps/search/?api=1&query={latitude},{longitude}"
     return google_maps_url
 
+def get_previous_page_image_url(driver):
+    url = 'https://www.eventbrite.com/d/canada--montreal/all-events/?page=1'
+
+    driver.get(url)
+
+    if driver.page_source:
+        soup = BeautifulSoup(driver.page_source, 'html.parser')
+        img_tag = soup.find('img', class_='event-card-image')
+
+        if img_tag:
+            return img_tag['src']
+
+    return None
+
 def scrape_eventbrite_events(driver, url, selectors, max_pages=30):
     driver.get(url)
     driver.implicitly_wait(20)
@@ -133,7 +147,8 @@ def scrape_eventbrite_events(driver, url, selectors, max_pages=30):
                     element = event.find(selector['tag'], class_=selector.get('class'))
                     event_info[key] = element.text.strip() if element else None
                     if key == 'ImageURL':
-                        event_info[key] = element['src'] if element and 'src' in element.attrs else None
+                        img_element = event.find('img', class_='event-card__image')
+                        event_info[key] = img_element['src'] if img_element and 'src' in img_element.attrs else None
 
             event_link = event.find('a', href=True)['href']
             driver.get(event_link)
@@ -147,6 +162,7 @@ def scrape_eventbrite_events(driver, url, selectors, max_pages=30):
             date = event_page.find('span', class_='date-info__full-datetime').text.strip() if event_page.find('span', class_='date-info__full-datetime') else None
             location_element = event_page.find('p', class_='location-info__address-text')
             location = location_element.text.strip() if location_element else None
+            ImageURL = get_previous_page_image_url(driver)
 
             # Obtenha as coordenadas de latitude e longitude
             latitude, longitude = get_coordinates(location)
@@ -179,6 +195,7 @@ def scrape_eventbrite_events(driver, url, selectors, max_pages=30):
             event_info['Date'] = date
             event_info['StartTime'], event_info['EndTime'] = extract_start_end_time(date)
             event_info.update(format_location(location, 'Eventbrite'))
+            event_info['ImageURL'] = ImageURL
             event_info['Latitude'] = latitude  # Adiciona latitude
             event_info['Longitude'] = longitude  # Adiciona longitude
             event_info['Tags'] = tags
@@ -201,6 +218,7 @@ def scrape_eventbrite_events(driver, url, selectors, max_pages=30):
             break
 
     return all_events
+
 
 def main():
     sources = [
