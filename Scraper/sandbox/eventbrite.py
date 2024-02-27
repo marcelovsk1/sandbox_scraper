@@ -7,6 +7,7 @@ from datetime import datetime
 import requests
 from geopy.geocoders import Nominatim
 import geopy.exc
+from unidecode import unidecode
 import re
 
 def scroll_to_bottom(driver, max_clicks=5):
@@ -118,31 +119,32 @@ print("StartTime:", start_time)
 print("EndTime:", end_time)
 
 
-# Exemplo de uso
-start_time, end_time = extract_start_end_time("Sat, Mar 16, 2024 6:00 PM - 10:00 PM EDT")
-print("StartTime:", start_time)
-print("EndTime:", end_time)
-
-
 def get_coordinates(location):
     geolocator = Nominatim(user_agent="event_scraper")
-    retries = 3  # Number of retries
-    delay = 2  # Delay between retries in seconds
+    retries = 3  # Número de tentativas
+    delay = 2  # Atraso entre tentativas em segundos
+
+    # Remover acentos da string de localização
+    location = unidecode(location)
 
     for _ in range(retries):
         try:
-            location = geolocator.geocode(location)
+            location = geolocator.geocode(location, addressdetails=True)
             if location:
-                return location.latitude, location.longitude
+                # Obtém as coordenadas
+                latitude = location.latitude
+                longitude = location.longitude
+                return latitude, longitude
             else:
                 return None, None
         except geopy.exc.GeocoderUnavailable as e:
-            print(f"Geocoding service unavailable: {e}")
-            print(f"Retrying after {delay} seconds...")
+            print(f"Serviço de geocodificação indisponível: {e}")
+            print(f"Tentando novamente após {delay} segundos...")
             time.sleep(delay)
 
-    print(f"Unable to geocode location: {location}")
+    print(f"Incapaz de obter coordenadas para o local: {location}")
     return None, None
+
 
 def open_google_maps(latitude, longitude):
     google_maps_url = f"https://www.google.com/maps/search/?api=1&query={latitude},{longitude}"
