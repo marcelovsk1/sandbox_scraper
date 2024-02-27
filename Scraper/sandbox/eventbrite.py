@@ -93,6 +93,13 @@ def extract_start_end_time(date_str):
         end_time = day_match.group(2)
         return start_time.strip(), end_time.strip()
 
+    # Pattern for start and end time in the same day
+    same_day_match = re.search(r'(\w{3}, \w{3} \d{1,2}, \d{4} \d{1,2}:\d{2} (?:AM|PM))\s*-\s*(\d{1,2}:\d{2} (?:AM|PM))', date_str)
+    if same_day_match:
+        start_time = same_day_match.group(1)
+        end_time = same_day_match.group(2)
+        return start_time.strip(), end_time.strip()
+
     # AM/PM Format
     am_pm_match = re.search(r'(\d{1,2}:\d{2}\s*(?:AM|PM))\s*-\s*(\d{1,2}:\d{2}\s*(?:AM|PM))', date_str)
     if am_pm_match:
