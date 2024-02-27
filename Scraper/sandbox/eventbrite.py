@@ -71,8 +71,6 @@ def format_location(location_str, source):
             'CountryCode': 'ca'
         }
 
-import re
-
 def extract_start_end_time(date_str):
     print("Date String:", date_str)  # Adicionado para depuração
 
@@ -87,6 +85,13 @@ def extract_start_end_time(date_str):
             return start_time.strip(), None
         else:
             return None, None
+
+    # Para eventos que começam e terminam em dias diferentes
+    day_match = re.search(r'(\w{3}, \w{3} \d{1,2}, \d{4} \d{1,2}:\d{2} (?:AM|PM))\s*-\s*(\w{3}, \w{3} \d{1,2}, \d{4} \d{1,2}:\d{2} (?:AM|PM))', date_str)
+    if day_match:
+        start_time = day_match.group(1)
+        end_time = day_match.group(2)
+        return start_time.strip(), end_time.strip()
 
     # Para eventos com horário em formato AM/PM
     am_pm_match = re.search(r'(\d{1,2}:\d{2}\s*(?:AM|PM))\s*-\s*(\d{1,2}:\d{2}\s*(?:AM|PM))', date_str)
@@ -108,7 +113,7 @@ def extract_start_end_time(date_str):
     return None, None
 
 # Exemplo de uso
-start_time, end_time = extract_start_end_time("Sat, Mar 16, 2024 6:00 PM - 10:00 PM EDT")
+start_time, end_time = extract_start_end_time("Sat, Mar 2, 2024 9:00 PM - Sun, Mar 3, 2024 1:00 AM EST")
 print("StartTime:", start_time)
 print("EndTime:", end_time)
 
