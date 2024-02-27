@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 import time
 from datetime import datetime
 import requests
+import geopy
 from geopy.geocoders import Nominatim
 import geopy.exc
 from unidecode import unidecode
@@ -71,7 +72,6 @@ def format_location(location_str, source):
             'City': 'Montreal',
             'CountryCode': 'ca'
         }
-
 
 def extract_start_end_time(date_str):
     if date_str is None:
@@ -146,7 +146,6 @@ def extract_start_end_time(date_str):
 
     return None, None
 
-
 def get_coordinates(location):
     geolocator = Nominatim(user_agent="event_scraper")
     retries = 3
@@ -164,13 +163,9 @@ def get_coordinates(location):
             else:
                 return None, None
         except geopy.exc.GeocoderUnavailable as e:
-            print(f"Serviço de geocodificação indisponível: {e}")
-            print(f"Tentando novamente após {delay} segundos...")
             time.sleep(delay)
 
-    print(f"Incapaz de obter coordenadas para o local: {location}")
     return None, None
-
 
 def open_google_maps(latitude, longitude):
     google_maps_url = f"https://www.google.com/maps/search/?api=1&query={latitude},{longitude}"
@@ -190,7 +185,7 @@ def get_previous_page_image_url(driver):
 
     return None
 
-def scrape_eventbrite_events(driver, url, selectors, max_pages=30):
+def scrape_eventbrite_events(driver, url, selectors, max_pages=40):
     driver.get(url)
     driver.implicitly_wait(20)
 
@@ -280,7 +275,6 @@ def scrape_eventbrite_events(driver, url, selectors, max_pages=30):
 
     return all_events
 
-
 def main():
     sources = [
         {
@@ -305,7 +299,7 @@ def main():
     chrome_options = Options()
     chrome_options.add_argument("--headless")
     chrome_options.add_argument("--disable-gpu")
-    chrome_options.add_argument("--disable-dev-shm-usage")  # Disable /dev/shm usage to improve memory usage
+    chrome_options.add_argument("--disable-dev-shm-usage")
 
     driver = webdriver.Chrome(options=chrome_options)
 
@@ -319,7 +313,7 @@ def main():
             continue
         all_events.extend(events)
 
-    # Salvar eventos únicos em um arquivo JSON
+    # JSON File
     with open('eventbrite.json', 'w') as f:
         json.dump(all_events, f, indent=4)
 
