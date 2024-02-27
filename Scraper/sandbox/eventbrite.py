@@ -45,7 +45,7 @@ def format_location(location_str, source):
         }
     elif source == 'Google':
         # Use Google Places API to get formatted location and additional information
-        api_key = 'YOUR_GOOGLE_PLACES_API_KEY'
+        api_key = 'AIzaSyD4K3294QGT9YUSquGZ_G82YMI856E0BzA'
         url = f'https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input={location_str}&inputtype=textquery&fields=address_components,geometry&key={api_key}'
         response = requests.get(url)
         if response.status_code == 200:
@@ -72,13 +72,12 @@ def format_location(location_str, source):
             'CountryCode': 'ca'
         }
 
-def extract_start_end_time(date_str):
-    print("Date String:", date_str)  # Adicionado para depuração
 
+def extract_start_end_time(date_str):
     if date_str is None:
         return None, None
 
-    # Se "-" não estiver presente na string, significa que é apenas um horário de início
+    # If "-" is not present in the string, it means it is just a start time
     if "-" not in date_str:
         start_time_match = re.search(r'(\d{1,2}:\d{2}\s*(?:AM|PM)?)', date_str)
         if start_time_match:
@@ -87,51 +86,71 @@ def extract_start_end_time(date_str):
         else:
             return None, None
 
-    # Para eventos que começam e terminam em dias diferentes
+    # For events that start and end on different days
     day_match = re.search(r'(\w{3}, \w{3} \d{1,2}, \d{4} \d{1,2}:\d{2} (?:AM|PM))\s*-\s*(\w{3}, \w{3} \d{1,2}, \d{4} \d{1,2}:\d{2} (?:AM|PM))', date_str)
     if day_match:
         start_time = day_match.group(1)
         end_time = day_match.group(2)
         return start_time.strip(), end_time.strip()
 
-    # Para eventos com horário em formato AM/PM
+    # AM/PM Format
     am_pm_match = re.search(r'(\d{1,2}:\d{2}\s*(?:AM|PM))\s*-\s*(\d{1,2}:\d{2}\s*(?:AM|PM))', date_str)
     if am_pm_match:
         start_time, end_time = am_pm_match.groups()
         return start_time.strip(), end_time.strip()
-    else:
-        print("AM/PM regex not matched")  # Adicionado para depuração
 
-    # Para eventos com horário em formato de 24hrs
+    # 24hrs Format
     hrs_24_match = re.search(r'(\d{1,2}:\d{2})\s*-\s*(\d{1,2}:\d{2})', date_str)
     if hrs_24_match:
         start_time, end_time = hrs_24_match.groups()
         return start_time.strip(), end_time.strip()
-    else:
-        print("24-hour regex not matched")  # Adicionado para depuração
 
-    # Se nenhum padrão correspondente for encontrado, retorna None para ambos os tempos
+    # Handle times like "9pm" and "11pm"
+    pm_match = re.search(r'(\d{1,2})pm', date_str, flags=re.IGNORECASE)
+    if pm_match:
+        start_hour = int(pm_match.group(1))
+        if start_hour < 12:
+            start_hour += 12
+        start_time = f"{start_hour:02}:00"
+
+        # Assume the event ends after the start time
+        end_hour = start_hour + 2  # Adding 2 hours as a default duration
+        if end_hour >= 24:
+            end_hour -= 12
+        end_time = f"{end_hour:02}:00"
+
+        return start_time.strip(), end_time
+
+    # Handle times like "9am" and "11am"
+    am_match = re.search(r'(\d{1,2})am', date_str, flags=re.IGNORECASE)
+    if am_match:
+        start_hour = int(am_match.group(1))
+        if start_hour == 12:
+            start_hour = 0
+        start_time = f"{start_hour:02}:00"
+
+        # Assume the event ends after the start time
+        end_hour = start_hour + 2  # Adding 2 hours as a default duration
+        if end_hour >= 12:
+            end_hour -= 12
+        end_time = f"{end_hour:02}:00"
+
+        return start_time.strip(), end_time
+
     return None, None
-
-# Exemplo de uso
-start_time, end_time = extract_start_end_time("Sat, Mar 2, 2024 9:00 PM - Sun, Mar 3, 2024 1:00 AM EST")
-print("StartTime:", start_time)
-print("EndTime:", end_time)
 
 
 def get_coordinates(location):
     geolocator = Nominatim(user_agent="event_scraper")
-    retries = 3  # Número de tentativas
-    delay = 2  # Atraso entre tentativas em segundos
+    retries = 3
+    delay = 2
 
-    # Remover acentos da string de localização
     location = unidecode(location)
 
     for _ in range(retries):
         try:
             location = geolocator.geocode(location, addressdetails=True)
             if location:
-                # Obtém as coordenadas
                 latitude = location.latitude
                 longitude = location.longitude
                 return latitude, longitude
