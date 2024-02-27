@@ -71,10 +71,15 @@ def format_location(location_str, source):
             'CountryCode': 'ca'
         }
 
+import re
+
 def extract_start_end_time(date_str):
+    print("Date String:", date_str)  # Adicionado para depuração
+
     if date_str is None:
         return None, None
 
+    # Se "-" não estiver presente na string, significa que é apenas um horário de início
     if "-" not in date_str:
         start_time_match = re.search(r'(\d{1,2}:\d{2}\s*(?:AM|PM)?)', date_str)
         if start_time_match:
@@ -83,13 +88,36 @@ def extract_start_end_time(date_str):
         else:
             return None, None
 
-    match = re.search(r'(\w{3}, \w{3} \d{1,2}, \d{4} \d{1,2}:\d{2} (?:AM|PM))\s*-\s*(\w{3}, \w{3} \d{1,2}, \d{4} \d{1,2}:\d{2} (?:AM|PM))', date_str)
-    if match:
-        start_time = match.group(1)
-        end_time = match.group(2)
+    # Para eventos com horário em formato AM/PM
+    am_pm_match = re.search(r'(\d{1,2}:\d{2}\s*(?:AM|PM))\s*-\s*(\d{1,2}:\d{2}\s*(?:AM|PM))', date_str)
+    if am_pm_match:
+        start_time, end_time = am_pm_match.groups()
         return start_time.strip(), end_time.strip()
     else:
-        return None, None
+        print("AM/PM regex not matched")  # Adicionado para depuração
+
+    # Para eventos com horário em formato de 24hrs
+    hrs_24_match = re.search(r'(\d{1,2}:\d{2})\s*-\s*(\d{1,2}:\d{2})', date_str)
+    if hrs_24_match:
+        start_time, end_time = hrs_24_match.groups()
+        return start_time.strip(), end_time.strip()
+    else:
+        print("24-hour regex not matched")  # Adicionado para depuração
+
+    # Se nenhum padrão correspondente for encontrado, retorna None para ambos os tempos
+    return None, None
+
+# Exemplo de uso
+start_time, end_time = extract_start_end_time("Sat, Mar 16, 2024 6:00 PM - 10:00 PM EDT")
+print("StartTime:", start_time)
+print("EndTime:", end_time)
+
+
+# Exemplo de uso
+start_time, end_time = extract_start_end_time("Sat, Mar 16, 2024 6:00 PM - 10:00 PM EDT")
+print("StartTime:", start_time)
+print("EndTime:", end_time)
+
 
 def get_coordinates(location):
     geolocator = Nominatim(user_agent="event_scraper")
