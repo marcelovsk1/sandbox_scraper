@@ -4,7 +4,6 @@ from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 import time
 from datetime import datetime
-import requests
 import geopy
 from geopy.geocoders import Nominatim
 import geopy.exc
@@ -306,7 +305,7 @@ def main():
     ]
 
     chrome_options = Options()
-    chrome_options.add_argument("--headless")
+    # Remova a opção "--headless" para mostrar o navegador
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--disable-dev-shm-usage")
 
