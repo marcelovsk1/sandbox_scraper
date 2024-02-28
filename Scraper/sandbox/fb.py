@@ -31,12 +31,13 @@ def format_date(date_str, source):
         return None
 
 def get_coordinates(location):
-    geolocator = Nominatim(user_agent="event_scraper")
+    geolocator = Nominatim(user_agent="event_scraper", timeout=30)  # Aumentando o tempo limite para 10 segundos
     location = geolocator.geocode(location)
     if location:
         return location.latitude, location.longitude
     else:
         return None, None
+
 
 def open_google_maps(latitude, longitude):
     google_maps_url = f"https://www.google.com/maps/search/?api=1&query={latitude},{longitude}"
@@ -178,14 +179,15 @@ def scrape_facebook_events(driver, url, selectors, max_scroll=30):
 
     return all_events if all_events else None
 
+
 if __name__ == "__main__":
     sources = [
         {
             'name': 'Facebook',
             'url': 'https://www.facebook.com/events/explore/montreal-quebec/102184499823699/',
             'selectors': {
-                'event': {'tag': 'div', 'class': 'x78zum5 x1n2onr6 xh8yej3'}
-            },
+                'event': {'tag': 'div', 'class': 'x1qjc9v5 x9f619 x78zum5 xdt5ytf x5yr21d x6ikm8r x10wlt62 xexx8yu x10ogl3i xg8j3zb x1k2j06m xlyipyv xh8yej3'}
+            }
         }
     ]
 

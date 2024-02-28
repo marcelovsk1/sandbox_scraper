@@ -298,7 +298,7 @@ def main():
     unique_events = find_unique_events(all_events)
 
     # Save unique events to JSON file
-    with open('unique_events.json', 'w') as f:
+    with open('events.json', 'w') as f:
         json.dump(unique_events, f, indent=4)
 
     driver.quit()
