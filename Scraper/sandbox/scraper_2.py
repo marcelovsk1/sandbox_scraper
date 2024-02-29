@@ -4,10 +4,14 @@ import time
 from datetime import datetime
 from bs4 import BeautifulSoup
 from selenium import webdriver
+from fuzzywuzzy import fuzz
 from selenium.webdriver.chrome.options import Options
 import geopy
 from geopy.geocoders import Nominatim
 from unidecode import unidecode
+
+def calculate_similarity(str1, str2):
+    return fuzz.token_sort_ratio(str1, str2)
 
 def scroll_to_bottom(driver, max_scroll=10):
     for _ in range(max_scroll):
@@ -31,15 +35,17 @@ def format_date(date_str, source):
         return None
 
 def get_coordinates(location):
-    print("Location:", location)  # Adiciona esta linha para imprimir o valor de location
     if location is None:
+        print("Location is None!")
         return None, None
+
+    print("Location before unidecode:", location)
+    location = unidecode(location)
+    print("Location after unidecode:", location)
 
     geolocator = Nominatim(user_agent="event_scraper")
     retries = 3
     delay = 2
-
-    location = unidecode(location)
 
     for _ in range(retries):
         try:
