@@ -39,6 +39,10 @@ def get_coordinates(location):
         print("Location is None!")
         return None, None
 
+    if not isinstance(location, str):
+        print("Location is not a string!")
+        return None, None
+
     print("Location before unidecode:", location)
     location = unidecode(location)
     print("Location after unidecode:", location)
@@ -95,7 +99,6 @@ def scrape_facebook_events(driver, url, selectors, max_scroll=10):
     all_events = []
     unique_event_titles = set()
 
-    # Rolar para baixo para carregar mais eventos
     scroll_to_bottom(driver, max_scroll)
 
     page_content = driver.page_source
@@ -118,23 +121,25 @@ def scrape_facebook_events(driver, url, selectors, max_scroll=10):
         event_title_elem = event_page.find('span', class_='x1lliihq x6ikm8r x10wlt62 x1n2onr6')
         if event_title_elem:
             event_title = event_title_elem.text.strip()
-            # Remova a chamada para a função calculate_similarity
             # if any(calculate_similarity(event_title, existing_title) >= 90 for existing_title in unique_event_titles):
             if any(event_title == existing_title for existing_title in unique_event_titles):
                 continue
         else:
-            continue  # Skip this event if title element is not found
+            continue
 
         location_div = event_page.find('div', class_='x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz xt0b8zv xzsf02u x1s688f')
         location_span = event_page.find('span', class_='xt0psk2')
 
         location_text = location_div.text.strip() if location_div else (location_span.text.strip() if location_span else None)
 
+        if location_text:
+            latitude, longitude = get_coordinates(location_text)
+        else:
+            latitude, longitude = None, None
+
         latitude, longitude = get_coordinates(location_text)
 
-        # Abre o Google Maps com a localização do evento
         google_maps_url = open_google_maps(latitude, longitude)
-
 
         address_span = event_page.find('span', class_='x193iq5w xeuugli x13faqbe x1vvkbs xlh3980 xvmahel x1n0sxbx x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x4zkp8e x3x7a5m x1f6kntn xvq8zen xo1l8bm xi81zsa x1yc453h')
         address = address_span.text.strip() if address_span else None
@@ -157,14 +162,13 @@ def scrape_facebook_events(driver, url, selectors, max_scroll=10):
         location_details['Location']['City'] = city
         location_details['Location']['CountryCode'] = country_code
 
-        # Se tanto a cidade quanto o código do país forem None, ajuste para Montreal e ca
         if city is None and country_code is None:
             location_details['Location']['City'] = 'Montreal'
             location_details['Location']['CountryCode'] = 'ca'
 
         date_text = event_page.find('div', class_='x1e56ztr x1xmf6yo').text.strip() if event_page.find('div', class_='x1e56ztr x1xmf6yo') else None
 
-        # Extrair StartTime e EndTime usando regex
+        # StartTime and EndTime with regex
         if date_text:
             match = re.search(r'(\d{1,2}:\d{2}\s?[AP]M)\s?–\s?(\d{1,2}:\d{2}\s?[AP]M)', date_text)
             if match:
@@ -178,7 +182,6 @@ def scrape_facebook_events(driver, url, selectors, max_scroll=10):
         else:
             start_time, end_time = None, None
 
-        # Initialize event_info here to avoid UnboundLocalError
         event_info = {
             'Title': event_title,
             'Description': event_page.find('div', class_='xdj266r x11i5rnm xat24cr x1mh8g0r x1vvkbs').text.strip() if event_page.find('div', class_='xdj266r x11i5rnm xat24cr x1mh8g0r x1vvkbs') else None,
@@ -356,7 +359,6 @@ def scrape_eventbrite_events(driver, url, selectors, max_pages=40):
             location = location_element.text.strip() if location_element else None
             ImageURL = get_previous_page_image_url(driver)
 
-            # Obtenha as coordenadas de latitude e longitude
             latitude, longitude = get_coordinates(location)
 
             tags_elements = event_page.find_all('li', class_='tags-item inline')
@@ -365,7 +367,7 @@ def scrape_eventbrite_events(driver, url, selectors, max_pages=40):
             for tag_element in tags_elements:
                 tag_link = tag_element.find('a')
                 if tag_link:
-                    tag_text = tag_link.text.strip().replace("#", "")  # Remove o caractere "#" do início do texto
+                    tag_text = tag_link.text.strip().replace("#", "")  # Remove the "#"
                     tags.append(tag_text)
 
             event_info['Tags'] = tags
@@ -388,16 +390,15 @@ def scrape_eventbrite_events(driver, url, selectors, max_pages=40):
             event_info['StartTime'], event_info['EndTime'] = extract_start_end_time(date)
             event_info['Location'] = location
             event_info['ImageURL'] = ImageURL
-            event_info['Latitude'] = latitude  # Adiciona latitude
-            event_info['Longitude'] = longitude  # Adiciona longitude
+            event_info['Latitude'] = latitude
+            event_info['Longitude'] = longitude
             event_info['Tags'] = tags
             event_info['Organizer'] = organizer.text.strip() if organizer else None
-            event_info['EventUrl'] = event_link  # Adiciona o EventUrl ao dicionário
+            event_info['EventUrl'] = event_link
 
-            # Adicione a URL do Google Maps para o evento
             if latitude is not None and longitude is not None:
                 map_url = open_google_maps(latitude, longitude)
-                event_info['MapURL'] = map_url
+                event_info['GoogleMaps_URL'] = map_url
 
             all_events.append(event_info)
 
@@ -457,7 +458,7 @@ def main():
         if events:
             all_events.extend(events)
 
-    # Salve os eventos em um arquivo JSON
+    # JSON File
     with open('events.json', 'w') as f:
         json.dump(all_events, f, indent=4)
 
