@@ -36,3 +36,65 @@
 
 
 # could we consider that events that occur at the same place at the same time are the same event
+
+
+
+#################
+
+1. Title
+
+This code snippet checks whether a Facebook event title already exists in a
+list of unique titles. If the title is already in the list, the event is ignored to avoid duplicates:
+
+event_title_elem = event_page.find('span', class_='x1lliihq x6ikm8r x10wlt62 x1n2onr6')
+if event_title_elem:
+    event_title = event_title_elem.text.strip()
+    # if any(calculate_similarity(event_title, existing_title) >= 90 for existing_title in unique_event_titles):
+    if any(event_title == existing_title for existing_title in unique_event_titles):
+        continue
+else:
+    continue
+
+###################
+
+2. Date
+
+Regex was applied!
+
+# Facebook: SUNDAY, MARCH 3, 2024
+# Eventbrite: Sunday, March 3
+
+- Working for dates written in English and French
+Date: "Fri, Mar 15, 2024 9:00 PM - Sat, Mar 16, 2024 2:00 AM EDT"
+Date: "jeu. 7 mars 2024 22:00 - ven. 8 mars 2024 03:00 UTC"
+
+- StartTime and EndTime
+Set to work with AP/PM and 24Hrs format
+
+AM/PM SETUP: 9:00 AM = 9am
+
+FOR EVENTS THAT START AND END ON THE SAME DAY
+"Date": "March 23 \u00b7 9pm - March 24 \u00b7 11pm EDT"
+"StartTime" = 9pm - "EndTime" = "11pm"
+
+FOR EVENTS THAT START ON ONE DAY AND END ON ANOTHER
+"Date": "Sat, Mar 2, 2024 10:00 PM - Sun, Mar 3, 2024 3:00 AM EST"
+"StartTime" = Sat, Mar 2, 2024 10:00 PM - "EndTime" = Sun, Mar 3, 2024 3:00 AM EST
+
+FOR EVENTS THAT SHOW ONLY THE START TIME
+"Date": "Debute le sam., 9 mars 2024 17:00 EST"
+"StartTime" = 17:00 - "EndTime" = None
+
+#####################
+
+3. Location
+
+The get_coordinates(location) function was applied,
+it uses Nominatim to geocode a location description
+(such as an address or city name) and return the corresponding geographic coordinates (latitude and longitude).
+
+The function get_location_details(latitude, longitude) also uses Nominatim,
+but this time to perform a geographic reversal, that is, based on geographic coordinates
+(latitude and longitude), obtain additional details about the location, such as address, city and code of country.
+
+#####################
