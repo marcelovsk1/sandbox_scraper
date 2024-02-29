@@ -24,10 +24,11 @@ def format_date(date_str, source):
 
     date_str_lower = date_str.lower()
     source_lower = source.lower()
-
+    # Facebook: SUNDAY, MARCH 3, 2024
     if source_lower == 'facebook':
         formatted_date = datetime.strptime(date_str, '%A, %B %d, %Y')
         return formatted_date
+    # Eventbrite: Sunday, March 3
     elif source_lower == 'eventbrite':
         formatted_date = datetime.strptime(date_str, '%a, %b %d, %Y %I:%M %p - %a, %b %d, %Y %I:%M %p %Z')
         return formatted_date
@@ -443,6 +444,8 @@ def main():
     driver = webdriver.Chrome(options=chrome_options)
 
     all_events = []
+    unique_event_titles = set()
+    duplicate_events = []
 
     for source in sources:
         if source['name'] == 'Facebook':
@@ -454,11 +457,21 @@ def main():
             continue
 
         if events:
-            all_events.extend(events)
+            for event in events:
+                event_title = event.get('Title')
+                if event_title not in unique_event_titles:
+                    unique_event_titles.add(event_title)
+                    all_events.append(event)
+                else:
+                    duplicate_events.append(event)
 
-    # JSON File
-    with open('events.json', 'w') as f:
+    # JSON File for unique events
+    with open('unique_events.json', 'w') as f:
         json.dump(all_events, f, indent=4)
+
+    # JSON File for duplicate events
+    with open('duplicate_events.json', 'w') as f:
+        json.dump(duplicate_events, f, indent=4)
 
     driver.quit()
 
