@@ -39,9 +39,7 @@ def get_coordinates(location):
         print("Location is None!")
         return None, None
 
-    if not isinstance(location, str):
-        print("Location is not a string!")
-        return None, None
+    location = str(location)
 
     print("Location before unidecode:", location)
     location = unidecode(location)
@@ -82,13 +80,13 @@ def get_location_details(latitude, longitude):
                 address = location.raw['address']
                 city = address.get('city', None)
                 country_code = address.get('country_code', None)
-                return address, city, country_code  # Corrigido para retornar address, city e country_code
+                return address, city, country_code
             else:
-                return None, None, None  # Adicionado um retorno padrão se a localização não for encontrada
+                return None, None, None
         except geopy.exc.GeocoderUnavailable as e:
             time.sleep(delay)
 
-    return None, None, None  # Adicionado um retorno padrão se ocorrer um erro
+    return None, None, None
 
 
 #### FACEBOOK ####
