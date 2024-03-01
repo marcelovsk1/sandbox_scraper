@@ -285,11 +285,15 @@ def extract_start_end_time(date_str):
     return None, None
 
 def get_coordinates(location):
+    if location is None:
+        print("Location is None!")
+        return None, None
+
     geolocator = Nominatim(user_agent="event_scraper")
     retries = 3
     delay = 2
 
-    location = unidecode(location)
+    location = unidecode(location) if location else None
 
     for _ in range(retries):
         try:
@@ -304,6 +308,7 @@ def get_coordinates(location):
             time.sleep(delay)
 
     return None, None
+
 
 def open_google_maps(latitude, longitude):
     google_maps_url = f"https://www.google.com/maps/search/?api=1&query={latitude},{longitude}"
